@@ -28,4 +28,4 @@ Languages currently available:
 - C++
 
 Languages on their way:
-- None
+- None (for the moment)
