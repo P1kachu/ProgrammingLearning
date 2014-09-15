@@ -24,7 +24,8 @@ You will need to add the corresponding headers/library/etc.
 Languages currently available:
 - C
 - Swift
-
-Languages on their way:
 - C#
 - C++
+
+Languages on their way:
+- None
