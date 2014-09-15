@@ -188,8 +188,6 @@ do{
 } while number2 > 3;
 println()
 
-// TODO: Switch
-//
 
 
 // FIXME: Random generator
@@ -239,3 +237,7 @@ for elemnt in multiArray
     }
     println("},")
 }
+
+
+// TODO: Switch
+//

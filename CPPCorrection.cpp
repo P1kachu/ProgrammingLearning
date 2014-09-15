@@ -1,29 +1,28 @@
 //
-//  main.c
-//  CCorrection
+//  CPPCorrection.cpp
+//  CPPCorrection
 //
-//  Created by Mr. ST4N on 14/09/14.
+//  Created by Mr. ST4N on 15/09/14.
 //  Copyright (c) 2014 Mr. ST4N. All rights reserved.
 //
 //  Function prototypes will not be added in a different header file to make it easier,
 //  but you should use headers in practice.
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h> //easier for string processing
-#include <time.h> //for random generation
+#include <iostream>
 #define numberOfElements(x)  (int)(sizeof(x) / sizeof(x[0])) //used to check how many elements are in an array for example
+
+using namespace std;
 
 
 //Function prototypes
 void TriForce();
-char * Hello(char name[]);
+string Hello(string name);
 int Addition(int a, int b);
 int Subtraction(int a, int b);
 int Multiplication(int a, int b);
 int Division(int a, int b);
 int rdm();
-int rdmBounds(unsigned int min, unsigned int max);
+int rdmBounds(int min, int max);
 
 int main()
 {
@@ -34,75 +33,68 @@ int main()
     
     // FIXME: Declare variables
     // Declare two variables: an integer named "age", and a string named "name" with corresponding values (your name and age)
+    string name = "Stan";
     int age = 19;
-    char name[] = "Stan";
+    
     
     // FIXME: Print
     // Print the following sentence in the console "You are NAME and you are AGE years old !". Don't forget to add a newline at the end
-    printf("You are %s and you are %d years old !\n", name, age);
+    cout << "You are " << name << " and you are " << age << " years old !\n";
     
     // FiXME: Concatenation
     // Create a new string variable called "hello" which value is "Hello ". Add "name" at the end of "hello" (Concatenation) then print it
-    char hello[] = "Hello ";
-    strcat(hello, name);
-    printf("%s\n", hello);
+    string hello = "Hello ";
+    hello += name;
+    cout << hello << endl; //endl adds a newline
     
     // FIXME: Array
     // create a new string array called "shoppingList", with three elements of your choice. Create an int variable containing the number of
     // elements in "shoppingList" (using a function of the array/using the array)
-    char *shoppingList[3] = {"milk", "a Chevy Camaro", "a life"};
-    const int nbOfElements = numberOfElements(shoppingList);
+    string shoppingList[3] = {"milk", "a Chevy Camaro", "a life"};
+    int nbOfElemets = numberOfElements(shoppingList);
     
     // FIXME: For-loop - Integer
     // Create a simple for-loop for an integer "i" going from 1 to 10 that print the value of "i"
-    for (int i = 0; i < 10; i++)
-    {
-        printf("%d ",i);
-    }
-    printf("\n");
-    // FIXME: For-loop - shoppingList
-    // Create a for loop that iterate through "shoppingList" and prints each element with "You have to buy (elemt)".
-    for (int j = 0; j <nbOfElements; j++)
-        printf("You have to buy %s\n", shoppingList[j]);
+    for (int i = 1; i <= 10; i++) // when having only one line in a for-loop/if -statement/etc, {brackets} are optional
+        cout << i << endl;
     
+    // FIXME: For-loop - shoppingList
+    // Create a for loop that iterate through "shoppingList" and prints each element.
+    for (int j = 0; j < nbOfElemets; j++)
+    {
+        cout << shoppingList[j] << endl;
+    }
     
     // FIXME: Foreach-loop
     // Do the same with a foreach-loop.
-    // The C programming language doesn't have a foreach, but you can look for macros if you are
-    // curious.
-    
-    
+    //Without using vectors, it's a pein in the ass apparently... Si let's stay with the for-loop
     
     // FIXME: If-statement
     // Modify the first for-loop (with i from 1 to 10) such that it prints "(value of i) is even" when "i" is divisible
     // by 2 (You may want to learn more about "modulo" (%)). Else, print "(value of i) is odd".
-    for (int i = 0; i < 10; i++)
+    for (int i = 1; i <= 10; i++)
     {
-        if (i % 2 == 0)
-            printf("%d is even\n",i);
+        if(i%2 == 0)
+            cout << i << " is even" << endl;
         else
-            printf("%d is odd\n",i);
+            cout << i << " is odd" << endl;
     }
-    
-    
-    
     // FIXME: Sum Up
-    // Create a string variable called "element" with the value of your choice. Then create a for-loop/foreach-loop that checks if "shoppingList"
-    // contains "element". If yes, print "You have to buy (value of element) !", and stop the loop (search how to stop a loop).
+    // Create a string variable called "element" with the value of your choice. Then create a for-loop that checks if "shoppingList" contains
+    // "element". If yes, print "You have to buy (value of element) !", and stop the loop (search how to stop a loop).
     // If not, print "Nope, you don't need (value of "element")".
-    char element[] = "a life";
-    for (int k = 0; k < nbOfElements; k++)
+    string element = "a life";
+    for (int i = 0; i < nbOfElemets; i++)
     {
-        if(strcmp(element, shoppingList[k]) == 0)
+        if(element == shoppingList[i])
         {
-            printf("You have to buy %s !\n", shoppingList[k]);
+            cout <<"You have to buy " << shoppingList[i] << " ! \n";
             break;
         }
         else
-        {
-            printf("Nope, you don't need %s !\n", shoppingList[k]);
-        }
+            cout << "Nope, you don't need " << shoppingList[i] << " ! \n";
     }
+    
     
     
     
@@ -113,72 +105,65 @@ int main()
     // Create a function that returns nothing and which doesn't takes any parameter. It should just be named "TriForce"
     // and print the TriForce symbol (one triangle over two other ones, can be found on internet) with "TRIFORCE"
     // Don't forget to call the function !
-    TriForce(); //Calling the functions in main()
+    TriForce();
     
     
     // FIXME: Functions - One parameter
     // Create a function that takes a string as parameter and returns "Hello (value of string) !"
-    // http://stackoverflow.com/questions/1745726/how-to-store-printf-into-a-variable
-    printf("%s",Hello("Stan"));
+    cout << Hello("Stan");
     
     // FIXME: Functions - Multiple parameters
     // Create a function that takes two integers as parameters and returns the addition of these two.
     // You can do the same with multiplication, subtraction and division.
-    printf("%d\n", Addition(5, 12));
-    printf("%d\n", Subtraction(5, 12));
-    printf("%d\n", Multiplication(5, 12));
-    printf("%d\n", Division(5, 12)); // returns 0 because "a" and "b" are Integers
-    printf("%d\n", Division(10, 2));
-    
+    cout << Addition(5, 12) << endl;;
+    cout << Subtraction(5, 12) << endl;;
+    cout << Multiplication(5, 12) << endl;;
+    cout << Division(5, 12) << endl;; // returns 0 because "a" and "b" are Integers (no point)
+    cout << Division(10, 2) << endl;;
     
     // FIXME: User entry
     // Create a string variable that takes what the user enter in the console as value. Then print "You entered (value of string)"
-    char userInput[100]; // 10 will be the max length of the input
-    printf("Enter a word:");
-    scanf("%s", userInput);
-    printf("You entered %s\n", userInput);
-    
+    string userInput;
+    cin >> userInput;
+    cout << "You entered " << userInput << endl;
     
     // FIXME: While loop
     // Create a while loop that takes a number and divides it by 2 until it is less than 3
-    int number = 52;
+    int number = 56;
     while (number > 3)
     {
-        number /= 2; //or number = number / 2;
-        printf("%d ", number);
+        number /= 2; // <=> number = number / 2;
+        cout << number << endl;
     }
-    printf("\n");
-    
-    
     
     // FIXME: do-While loop
     // Do the same with a do-while loop
-    int number2 = 84;
+    int number2 = 86;
     do
     {
-        number2 = number2 / 2;
-        printf("%d ", number2);
-    } while (number2 > 3);
-    printf("\n");
-    // TODO: Switch
-    //
-
-    
+        number2 /= 2;
+        cout << number2 << endl;
+    }while (number2 > 3);
     
     // FIXME: Random generator
     // Create a function that returns a random number
-    srand((unsigned)time(NULL));
-    printf("%d\n", rdm());
-    
+    srand(time(NULL));
+    cout << rdm();
     
     // FIXME: Random generator with bounds
     // Create another function that returns a random number between two bounds given as parameters.
-    printf("%d\n", rdmBounds(10,20));
+    cout << rdmBounds(2,26) << endl;
+    cout << rdmBounds(2,26) << endl;
+    cout << rdmBounds(2,26) << endl;
+    cout << rdmBounds(2,26) << endl;
+    cout << rdmBounds(2,26) << endl;
+    cout << rdmBounds(2,26) << endl;
+    cout << rdmBounds(2,26) << endl;
+    cout << rdmBounds(2,26) << endl;
+    cout << rdmBounds(2,26) << endl;
     
-    
-    
-    // FIXME: Multi-dimensionnal array
-    // Create a two dimensionnal int array of 3 columns and 3 rows. Use 2 for-loops to add a random number
+    // FIXME: Multidimensional array
+    // Create a two dimensional int array of 3 columns and 3 rows. Use 2 for-loops to add a random number
     // between 1 and 9 in each of the 9 rooms.
     // You may use one of the two previously created function.
     // Then print them such that they appear like this (with [x1,x9] being the 9 random integers):
@@ -186,60 +171,59 @@ int main()
     // {x4,x5,x6,}
     // {x7,x8,x9,}
     int multiArray[3][3];
-    for (int l = 0; l < numberOfElements(multiArray); l++)
-        for (int m = 0; m < numberOfElements(multiArray[l]); m++)
-            multiArray[l][m] = rdmBounds(1, 9);
+    for (int i = 0; i < numberOfElements(multiArray); i++)
+        for (int j = 0; j < numberOfElements(multiArray[i]); j++)
+            multiArray[i][j] = rdmBounds(0, 10);
     
-    for (int n = 0; n < numberOfElements(multiArray); n++)
+    
+    for (int i = 0; i < numberOfElements(multiArray); i++)
     {
-        printf("{");
-        for (int o = 0; o < numberOfElements(multiArray[n]); o++)
+        cout << "{";
+        for (int j = 0; j < numberOfElements(multiArray[i]); j++)
         {
-            printf("%d,", multiArray[n][o]);
+            cout << multiArray[i][j] << ",";
         }
-        printf("}\n");
+        cout << "}\n";
     }
     
     
     // TODO: Switch
     //
-
     return 0;
+    
 }
-
 
 void TriForce()
 {
-    printf("   /\\  \n");
-    printf("  /__\\ \n");
-    printf(" /\\  /\\  \n");
-    printf("/__\\/__\\ \n");
-    printf("TRIFORCE\n");
+    cout << "   /\\  \n";
+    cout << "  /__\\ \n";
+    cout << " /\\  /\\  \n";
+    cout << "/__\\/__\\ \n";
+    cout << "TRIFORCE\n";
 }
 
-char * Hello(char name[])
+string Hello(string name)
 {
-    char *buf;
-    size_t sz;
-    sz = snprintf(NULL, 0, "Hello %s!\n", name);
-    buf = (char *)malloc(sz + 1); /* make sure you check for != NULL in real code */
-    snprintf(buf, sz+1, "Hello %s!\n", name);
-    
-    return  buf;
+    return "Hello " + name + " !\n";
 }
 
 int Addition(int a, int b)
 {
     return a + b;
 }
+
 int Subtraction(int a, int b)
 {
     return a - b;
 }
+
+
 int Multiplication(int a, int b)
 {
     return a * b;
 }
+
+
 int Division(int a, int b)
 {
     return a / b;
@@ -250,17 +234,9 @@ int rdm()
 {
     return rand();
 }
-int rdmBounds(unsigned int min, unsigned int max)
+
+
+int rdmBounds(int min, int max)
 {
-    return (rand()% max - min) + min;
-    
+    return min + (rand() % (max - min));
 }
-
-
-
-
-
-
-
-
-
