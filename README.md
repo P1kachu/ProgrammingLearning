@@ -11,12 +11,12 @@ Since I am far from knowing every programming language, some exercise may not be
 Feel free to send me corrections for languages that are not available yet,
 new exercises ideas or any mistakes that I could have made !
 Nothing will be clearly explained, you will just have exercises and corrections.
-You need to look for answers on the internet (stackoverflow.com is good for example) and search by yourself.
+You need to look for answers on the internet (stackoverflow.com is a good start for example) and search by yourself.
 Tutorials are available all around the internet, but searching by yourself helps you learning about things
 you were not looking for !
 Good luck :)
 
-Create a new project for the language you want to learn and add this file with the 
+Create a new project for the language you want to learn and add this file with the
 right extension (.c for c, .cpp for C++, .cs for C#, etc.) regarding the language.
 You will need to add the corresponding headers/library/etc.
 
@@ -26,6 +26,8 @@ Languages currently available:
 - Swift
 - C#
 - C++
+- Python
+- Java
 
 Languages on their way:
 - None (for the moment)
