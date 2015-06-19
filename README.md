@@ -35,4 +35,5 @@ Languages currently available:
 - GoLang
 
 Languages on their way:
-- None (for the moment)
+- LOLCODE
+- None other (for the moment)
