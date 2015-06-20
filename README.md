@@ -33,7 +33,8 @@ Languages currently available:
 - Python
 - Java
 - GoLang
+- LOLCODE
 
 Languages on their way:
-- LOLCODE
-- None other (for the moment)
+- Javascript
+- No other (for the moment)
