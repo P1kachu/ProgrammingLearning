@@ -36,5 +36,7 @@ Languages currently available:
 - LOLCODE
 
 Languages on their way:
+- Phantom
 - Javascript
+- OCaml
 - No other (for the moment)
