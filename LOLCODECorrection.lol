@@ -268,6 +268,7 @@ BTW VISIBLE I IZ Xor YR WIN AN YR FAIL MKAY
 
 OBTW FIXME - Reverse
      Create a function that reverse a string
+     "LOLCODE has no character processing functions" (http://progopedia.com/language/lolcode/) and I'm Lazy
 TLDR
 
 KTHXBYE
