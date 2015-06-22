@@ -6,7 +6,6 @@
 //  Copyright (c) 2015 Mr. ST4N. All rights reserved.
 
 using util
-using sys::InStream
 class FantomCorrection{
     Void main(){
 
@@ -14,7 +13,7 @@ class FantomCorrection{
 
 
         // FIXME: Declare variables
-        // Declare two variables: an eger named "age", and a string named "name" with corresponding values (your name and age)
+        // Declare two variables: an integer named "age", and a string named "name" with corresponding values (your name and age)
         age := 20
         name := "Pikachu"
 
@@ -34,8 +33,8 @@ class FantomCorrection{
         shoppingList := ["Tea","Raspberry","Pi"]
         nbOfElts := shoppingList.size
 
-        // FIXME: For-loop - Integer
-        // Create a simple for-loop for an eger "i" going from 1 to 10 that prints the value of "i"
+        // FIXME: For-loop - Intinteger
+        // Create a simple for-loop for an integer "i" going from 1 to 10 that prints the value of "i"
         for ( i := 1; i <11; i++)
             echo(i)
 
@@ -48,13 +47,11 @@ class FantomCorrection{
 
         // FIXME: Foreach-loop
         // Do the same with a foreach-loop.
-        /*shoppingList.forEach
-        (
-          function (item)
-          {
-            echo(item)
-          }
-        );*/
+        shoppingList.each |Int item|
+        {
+          echo (item)
+        }
+
         // FIXME: If-statement
         // Modify the first for-loop (with i from 1 to 10) such that it prints "(value of i) is even" when "i" is divisible
         // by 2 (You may want to learn more about "modulo" (%)). Else, print "(value of i) is odd".
@@ -94,7 +91,7 @@ class FantomCorrection{
         echo(Hello("Luke"))
 
         // FIXME: Functions - Multiple parameters
-        // Create a function that takes two egers as parameters and returns the addition of these two.
+        // Create a function that takes two integers as parameters and returns the addition of these two.
         // You can do the same with multiplication, subtraction and division.
         echo(Addition(18,24))
         echo(Division(336,8))
@@ -103,9 +100,8 @@ class FantomCorrection{
 
         // FIXME: User input
         // Create a string variable that takes what the user enters in the console as value. Then printint "You entered (value of string)"
-        //inStream := InStream()
-        //strInput := inStream.readLine()
-        //echo("You entered " + strInput)
+        str := Env.cur.in.readLine
+        echo("You entered :$str:")
 
         // FIXME: While loop
         // Create a while loop that takes a number and divides it by 2 until it is less than 3
@@ -132,26 +128,11 @@ class FantomCorrection{
         // Create a two dimensional  array of 3 columns and 3 rows. Use 2 for-loops to add a random number
         // between 1 and 9 in each of the 9 rooms.
         // You may use one of the two printeviously created function.
-        // Then print them such that they appear like this (with [x1,x9] being the 9 random egers):
-        // {x1,x2,x3,}
-        // {x4,x5,x6,}
-        // {x7,x8,x9,}
-        // array := [3][3]
-        // for (i := 0; i < 3; i++)
-        //     for ( j := 0; j < 3; j++)
-        //         array[i][j] = randIntBounds(0,9)
-
-
-        // for (i := 0; i < 3; i++)
-        // {
-        //     echo("{")
-        //     for (j := 0; j < 3; j++)
-        //         echo(array[i][j] + ",")
-        //     echo("}")
-        // }
+        // Then print them such that they appear like this (with [x1,x9] being the 9 random integers):
+        // Features which are not yet available in Java FFI: Multi-dimensional arrays (http://web.mit.edu/fantom_v1.0.61/doc/docLang/JavaFFI.html)
 
         // FIXME: Switch
-        // Create a Switch that takes an eger "a" and return a sentence regarding the value of a
+        // Create a Switch that takes an integer "a" and return a sentence regarding the value of a
         // (Create 3 statements for 3 specific values and a default one)
          a := 3
 
@@ -329,5 +310,6 @@ class FantomCorrection{
         Str reverse(Str str)
         {
             return str.reverse() // Yes quite useless
+            // But why reinvent the wheel...
         }
   }
