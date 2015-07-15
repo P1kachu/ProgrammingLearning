@@ -37,3 +37,5 @@ Languages currently available:
 
 Languages on their way:
 - No other (for the moment)
+- Bash
+- ArnoldC
