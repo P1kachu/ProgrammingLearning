@@ -19,7 +19,7 @@ new exercises ideas or any mistakes that I could have made !
 
 Nothing will be clearly explained, you will just have exercises and corrections.
 You need to look for answers on the internet (stackoverflow.com is a good start for example) and search by yourself.
-Tutorials are available all around the internet, but searching by yourself helps you learning about things
+Tutorials are available all around the internet, but searching by yourself helps you learn about things
 you were not looking for !
 
 
