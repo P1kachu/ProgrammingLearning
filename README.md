@@ -34,8 +34,8 @@ Languages currently available:
 - Java
 - GoLang
 - LOLCODE
+- Bash
 
 Languages on their way:
 - No other (for the moment)
-- Bash
 - ArnoldC
