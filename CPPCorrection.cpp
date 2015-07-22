@@ -2,8 +2,8 @@
 //  CPPCorrection.cpp
 //  CPPCorrection
 //
-//  Created by Mr. ST4N on 15/09/14.
-//  Copyright (c) 2014 Mr. ST4N. All rights reserved.
+//  Created by P1kachu on 15/09/14.
+//  Copyright (c) 2014 P1kachu. All rights reserved.
 //
 //  Function prototypes will not be added in a different header file to make it easier,
 //  but you should use headers in practice.

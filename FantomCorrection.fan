@@ -2,8 +2,8 @@
 //  FantomCorrection.fan
 //  FantomCorrection
 //
-//  Created by Mr. ST4N on 21/06/15.
-//  Copyright (c) 2015 Mr. ST4N. All rights reserved.
+//  Created by P1kachu on 21/06/15.
+//  Copyright (c) 2015 P1kachu. All rights reserved.
 
 using util
 class FantomCorrection{

@@ -2,14 +2,18 @@ How to learn a language
 =======================
 
 ### Disclaimer
-These exercises and corrections are not here to teach how to code in a clean way. They are just here to teach the fundamentals of programming in different languages, and thus different syntaxes. Code factorisation, splitting into different files, or coding style for example are not resepcted due to the fact that they are not the goal here and would decrease readability (especially splitting into files). They are to be used as cheat sheets with quick access, not example of perfect code (thanksfully).  
+These exercises and corrections are not here to teach how to code in a clean way.
+They are just here to teach the fundamentals of programming in different languages, and thus different syntaxes.
+Code factorisation, splitting into different files, or coding style for example are not resepcted due to the fact that they are not the goal here and would decrease readability (especially splitting into files).
+They are to be used as cheat sheets with quick access, not example of perfect code (thanksfully).  
 Thank you
 
 ### Then, what is it ?
 How to practice a language !
 
 Here are some exercises to help you improving your skills in any programming language.
-The purpose of this project (and exercise sheet) is to allow anybody learning a new language to practise. Exercises are ordered by difficulty.
+The purpose of this project (and exercise sheet) is to allow anybody learning a new language to practice.
+Exercises are ordered by difficulty.
 
 The exercises are taken from practical session from my first year.
 Document will be updated with new exercises and corrections are available for some languages.

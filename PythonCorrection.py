@@ -2,8 +2,8 @@
 #  PythonCorrection.py
 #  PythonCorrection
 #
-#  Created by Mr. ST4N on 07/02/15.
-#  Copyright (c) 2015 Mr. ST4N. All rights reserved.
+#  Created by P1kachu on 07/02/15.
+#  Copyright (c) 2015 P1kachu. All rights reserved.
 import random
 import sys
 

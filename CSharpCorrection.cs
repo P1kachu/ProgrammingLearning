@@ -2,8 +2,8 @@
 //  CSharpCorrection.cs
 //  CSharpCorrection
 //
-//  Created by Mr. ST4N on 15/09/14.
-//  Copyright (c) 2014 Mr. ST4N. All rights reserved.
+//  Created by P1kachu on 15/09/14.
+//  Copyright (c) 2014 P1kachu. All rights reserved.
 
 using System;
 using System.Collections.Generic;

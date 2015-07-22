@@ -3,8 +3,8 @@
 #  BashCorrection.sh
 #  BashCorrection
 #
-#  Created by Mr. ST4N on 15/07/15.
-#  Copy$3 (c) 2015 Mr. ST4N. All $3s reserved.
+#  Created by P1kachu on 15/07/15.
+#  Copy$3 (c) 2015 P1kachu. All $3s reserved.
 #!/bin/sh
 
 
