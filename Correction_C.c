@@ -160,8 +160,6 @@ int main()
         printf("%d ", number2);
     } while (number2 > 3);
     printf("\n");
-    // TODO: Switch
-    //
 
     
     
