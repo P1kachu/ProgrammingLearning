@@ -187,8 +187,13 @@ int main()
     }
     
     
+
     // TODO: Switch
-    //
+
+    // TODO: logic Gates
+
+    // TODO - Reverse
+
     return 0;
     
 }
