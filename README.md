@@ -11,7 +11,7 @@ Thank you
 ###Then, what is it ?
 How to practice a language !
 
-Here are some exercises to help you improving your skills in any programming language.
+Here are some exercises to help you improve your skills in any programming language.
 The purpose of this project (and exercise sheet) is to allow anybody learning a new language to practice.
 Exercises are ordered by difficulty.
 
@@ -38,11 +38,11 @@ You will need to add the corresponding headers/library/etc.
 - C
 - C#
 - C++
-- Bash
 - Java
+- Bash
 - Swift
 - Fantom
-- GoLang
+- Golang
 - Python
 - Python3
 - LOLCODE
