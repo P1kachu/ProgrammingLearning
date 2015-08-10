@@ -40,7 +40,9 @@ Languages currently available:
 - C#
 - C++
 - Python
+- Python3
 - Java
+- Fantom
 - GoLang
 - LOLCODE
 - Bash
