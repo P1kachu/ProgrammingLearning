@@ -12,7 +12,7 @@
 #include <stdlib.h>
 #include <string.h> //easier for string processing
 #include <time.h> //for random generation
-#define numberOfElements(x)  (int)(sizeof(x) / sizeof(x[0])) //used to check how many elements are in an array for example
+#define numberOfElements(x) (int)(sizeof(x) / sizeof(x[0])) //used to check how many elements are in an array for example
 
 
 //Function prototypes
