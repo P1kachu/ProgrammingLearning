@@ -183,11 +183,11 @@ namespace CSharpCorrection
             }
             
             
-            // FIXME: Switch
+            // TODO: Switch
 
-            // FIXME: logic Gates
+            // TODO: logic Gates
 
-            // FIXME - Reverse
+            // TODO - Reverse
 
             Console.Read(); //force the Console to wait before closing
         }
