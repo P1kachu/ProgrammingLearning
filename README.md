@@ -38,11 +38,11 @@ You will need to add the corresponding headers/library/etc.
 - C
 - C#
 - C++
-- Bash
 - Java
+- Bash
 - Swift
 - Fantom
-- GoLang
+- Golang
 - Python
 - Python3
 - LOLCODE
