@@ -45,7 +45,7 @@ You will need to add the corresponding headers/library/etc.
 - Golang
 - Python
 - Python3
-- LOLCODE
+- Lolcode
 
 Languages on their way:
 - No other (for the moment)
