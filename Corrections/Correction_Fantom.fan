@@ -49,7 +49,7 @@ class FantomCorrection{
         // Do the same with a foreach-loop.
         shoppingList.each |Int item|
         {
-          echo (item)
+            echo (item)
         }
 
         // FIXME: If-statement
@@ -249,62 +249,69 @@ class FantomCorrection{
 
         Bool And(Bool a, Bool b)
         {
-            if (a == true && b == true)
-            return true
+            if (a && b)
+                return true
             else
-            return false
+                return false
+            // return (a && b)
         }
 
 
         Bool Or(Bool a, Bool b)
         {
-            if (a == true || b == true)
-            return true
+            if (a || b)
+                return true
             else
-            return false
+                return false
+            // return (a || b)
         }
 
 
         Bool No(Bool a)
         {
-            if (a == true)
-            return false
+            if (a)
+                return false
             else
-            return true
+                return true
+            // return (!a)
         }
 
 
         Bool Nand(Bool a, Bool b)
         {
-            if (a == true && b == true)
-            return false
+            if (a && b)
+                return false
             else
-            return true
+                return true
+            // return !(a && b)
         }
 
 
         Bool Nor(Bool a, Bool b)
         {
-            if (a == false && b == false)
-            return true
+            if (a && b)
+                return true
             else
-            return false
+                return false
+            // return !(a || b)
         }
 
         Bool Xor(Bool a, Bool b)
         {
-            if ((a == true && b == false) || (a == false && b == true))
-            return true
+            if ((a && b) || (a && b))
+                return true
             else
-            return false
+                return false
+            // return ((a && b) || (a && b))
         }
 
         Bool Xnor(Bool a, Bool b)
         {
-            if ((a == true && b == false) || (a == false && b == true))
-            return false
+            if ((a && b) || (a && b))
+                return false
             else
-            return true
+                return true
+            // return !((a && b) || (a && b))
         }
 
         Str reverse(Str str)
