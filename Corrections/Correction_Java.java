@@ -33,7 +33,7 @@ class JavaCorrection
         // FIXME: Array
         // create a new string array called "shoppingList", with three elements of your choice. Create an int variable containing the number of
         // elements in "shoppingList" (using a function of the array/using the array)
-        String[] shoppingList = {"Tea","Raspberry","Pi"};
+        String[] shoppingList = { "Tea","Raspberry","Pi" };
         int nbOfElts = shoppingList.length;
 
         // FIXME: For-loop - Integer
@@ -71,10 +71,10 @@ class JavaCorrection
         for (int i = 0; i < nbOfElts; i++)
             if (shoppingList[i] == element)
                 tmp = 1;
-        if (tmp == 1)
-            System.out.println("You have to buy "+element+" !");
+        if (tmp)
+            System.out.println("You have to buy " + element + " !");
         else
-            System.out.println("Nope, you don't need "+element);
+            System.out.println("Nope, you don't need " + element);
 
 
         // Part Two:
@@ -276,62 +276,69 @@ class JavaCorrection
 
         static boolean And(boolean a, boolean b)
         {
-            if (a == true && b == true)
-            return true;
+            if (a && b)
+                return true
             else
-            return false;
+                return false
+            // return (a && b)
         }
 
 
         static boolean Or(boolean a, boolean b)
         {
-            if (a == true || b == true)
-            return true;
+            if (a || b)
+                return true
             else
-            return false;
+                return false
+            // return (a || b)
         }
 
 
         static boolean No(boolean a)
         {
-            if (a == true)
-            return false;
+            if (a)
+                return false
             else
-            return true;
+                return true
+            // return (!a)
         }
 
 
         static boolean Nand(boolean a, boolean b)
         {
-            if (a == true && b == true)
-            return false;
+            if (a && b)
+                return false
             else
-            return true;
+                return true
+            // return !(a && b)
         }
 
 
         static boolean Nor(boolean a, boolean b)
         {
-            if (a == false && b == false)
-            return true;
+            if (a && b)
+                return true
             else
-            return false;
+                return false
+            // return !(a || b)
         }
 
         static boolean Xor(boolean a, boolean b)
         {
-            if ((a == true && b == false) || (a == false && b == true))
-            return true;
+            if ((a && b) || (a && b))
+                return true
             else
-            return false;
+                return false
+            // return ((a && b) || (a && b))
         }
 
         static boolean Xnor(boolean a, boolean b)
         {
-            if ((a == true && b == false) || (a == false && b == true))
-            return false;
+            if ((a && b) || (a && b))
+                return false
             else
-            return true;
+                return true
+            // return !((a && b) || (a && b))
         }
 
         static String reverseString(String str)
