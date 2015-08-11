@@ -61,13 +61,11 @@ int main()
     // FIXME: For-loop - shoppingList
     // Create a for loop that iterate through "shoppingList" and prints each element.
     for (int j = 0; j < nbOfElemets; j++)
-    {
         cout << shoppingList[j] << endl;
-    }
-    
+
     // FIXME: Foreach-loop
     // Do the same with a foreach-loop.
-    //Without using vectors, it's a pein in the ass apparently... Si let's stay with the for-loop
+    // Without using vectors, it's a pain in the ass apparently... So let's stay with the for-loop
     
     // FIXME: If-statement
     // Modify the first for-loop (with i from 1 to 10) such that it prints "(value of i) is even" when "i" is divisible
@@ -147,18 +145,11 @@ int main()
     
     // FIXME: Random generator
     // Create a function that returns a random number
-    srand(time(NULL));
+    srand(time(NULL)); // Time used to seed the random
     cout << rdm();
     
     // FIXME: Random generator with bounds
     // Create another function that returns a random number between two bounds given as parameters.
-    cout << rdmBounds(2,26) << endl;
-    cout << rdmBounds(2,26) << endl;
-    cout << rdmBounds(2,26) << endl;
-    cout << rdmBounds(2,26) << endl;
-    cout << rdmBounds(2,26) << endl;
-    cout << rdmBounds(2,26) << endl;
-    cout << rdmBounds(2,26) << endl;
     cout << rdmBounds(2,26) << endl;
     cout << rdmBounds(2,26) << endl;
     
@@ -171,6 +162,7 @@ int main()
     // {x4,x5,x6,}
     // {x7,x8,x9,}
     int multiArray[3][3];
+
     for (int i = 0; i < numberOfElements(multiArray); i++)
         for (int j = 0; j < numberOfElements(multiArray[i]); j++)
             multiArray[i][j] = rdmBounds(0, 10);
@@ -180,9 +172,7 @@ int main()
     {
         cout << "{";
         for (int j = 0; j < numberOfElements(multiArray[i]); j++)
-        {
             cout << multiArray[i][j] << ",";
-        }
         cout << "}\n";
     }
     
