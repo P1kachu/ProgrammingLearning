@@ -35,7 +35,7 @@ func main(){
     // create a new string array called "shoppingList", with three elements of your choice. Create an int variable containing the number of
     // elements in "shoppingList" (using a function of the array/using the array)
 
-    shoppingList := []string{"Cray Titan", "Milk", "Kitten"}
+    shoppingList := []string{ "Cray Titan", "Milk", "Kitten" }
     size := len(shoppingList)
 
     // FIXME: For-loop - Integer
@@ -54,7 +54,7 @@ func main(){
 
     // FIXME: Foreach-loop
     // Do the same with a foreach-loop.
-    for _,element := range shoppingList { // "_" is because we don't care about the index here
+    for _, element := range shoppingList { // "_" is because we don't care about the index here
         fmt.Printf("%s\n", element)
     }
 
