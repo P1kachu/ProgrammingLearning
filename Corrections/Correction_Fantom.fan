@@ -30,7 +30,7 @@ class FantomCorrection{
         // FIXME: Array
         // create a new string array called "shoppingList", with three elements of your choice. Create an  variable containing the number of
         // elements in "shoppingList" (using a function of the array/using the array)
-        shoppingList := ["Tea","Raspberry","Pi"]
+        shoppingList := [ "Tea", "Raspberry", "Pi" ]
         nbOfElts := shoppingList.size
 
         // FIXME: For-loop - Intinteger
