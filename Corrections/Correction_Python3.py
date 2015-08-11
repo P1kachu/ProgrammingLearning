@@ -212,38 +212,34 @@ switch[a]()
 #   Create 7 functions for each logic gates (And, Or, No, Nand, Nor, Xnor, Xor).
 #   Each function takes two booleans (or 0 and 1) as parameters and returns the result of the logic gate.
 #   (or You can do it with a switch and only one function)
-def And(nb1, nb2):
-    return nb1 * nb2
+#   Logic gates are already well represented in python. so here are (strange) versions with numbers... 
 
+def And(nb1, nb2):
+    return 1 if nb1*nb2 else 0
 
 def Or(nb1, nb2):
-    if (nb1):
+    if(nb1):
         return 1
     else:
-        if (nb2):
+        if(nb2):
             return 1
     return 0
-
 
 def Xnor(nb1, nb2):
     if nb1 == nb2:
         return 1
     return 0
 
-
 def Xor(nb1, nb2):
     if nb1 != nb2:
         return 1
     return 0
 
-
 def No(nb1):
     return abs(1 - nb1)
 
-
 def Nand(nb1, nb2):
     return abs(1 - And(nb1, nb2))
-
 
 def Nor(nb1, nb2):
     return abs(1 - Or(nb1, nb2))
