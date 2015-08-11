@@ -49,7 +49,7 @@ Languages on their way:
 - No other (for the moment)
 
 [C]: Corrections/Correction_C.c "C Correction"
-[C#]: Corrections/Correction_C#.cs "C# Correction"
+[C#]: Corrections/Correction_C%23.cs "C# Correction"
 [C++]: Corrections/Correction_C++.cpp "C++ Correction"
 [Java]: Corrections/Correction_Java.java "Java Correction"
 [Bash]: Corrections/Correction_Bash.sh "Bash Correction"
