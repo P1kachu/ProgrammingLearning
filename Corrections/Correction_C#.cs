@@ -123,7 +123,7 @@ namespace CSharpCorrection
             int number = 56;
             while (number > 3)
             {
-                number /= 2; // <=> number = number / 2;
+                number /= 2;
                 Console.WriteLine(number);
             }
             
@@ -140,19 +140,9 @@ namespace CSharpCorrection
             // Create a function that returns a random number
             Console.WriteLine(rdm());
             Console.WriteLine(rdm());
-            Console.WriteLine(rdm());
-            Console.WriteLine(rdm());
-            Console.WriteLine(rdm());
             
             // FIXME: Random generator with bounds
             // Create another function that returns a random number between two bounds given as parameters.
-            Console.WriteLine(rdmBounds(2,26));
-            Console.WriteLine(rdmBounds(2,26));
-            Console.WriteLine(rdmBounds(2,26));
-            Console.WriteLine(rdmBounds(2,26));
-            Console.WriteLine(rdmBounds(2,26));
-            Console.WriteLine(rdmBounds(2,26));
-            Console.WriteLine(rdmBounds(2,26));
             Console.WriteLine(rdmBounds(2,26));
             Console.WriteLine(rdmBounds(2,26));
             
@@ -165,8 +155,10 @@ namespace CSharpCorrection
             // {x4,x5,x6,}
             // {x7,x8,x9,}
             int[][] multiArray = new int[3][];
+
             for (int i = 0; i < multiArray.Length; i++)
                 multiArray[i] = new int[3];
+
             for (int i = 0; i < multiArray.Length; i++)
                 for (int j = 0; j < multiArray[i].Length; j++)
                     multiArray[i][j] = rdmBounds(0, 10);
@@ -175,10 +167,10 @@ namespace CSharpCorrection
             for (int i = 0; i  <multiArray.Length; i++)
             {
                 Console.Write("{");
+
                 for (int j = 0; j < multiArray[i].Length; j++)
-                {
                     Console.Write(multiArray[i][j] + ",");
-                }
+                    
                 Console.WriteLine("}");
             }
             
