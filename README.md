@@ -35,17 +35,27 @@ You will need to add the corresponding headers/library/etc.
 
 
 ###Languages currently available
-- C
-- C#
-- C++
-- Java
-- Bash
-- Swift
-- Fantom
-- Golang
-- Python
-- Python3
-- Lolcode
+
+Language |      | Language |      |
+---------|------|----------|------|
+[C]        | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/c.png" "width="75" height="75"/> | [C#]       | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/cs.png" "width="75" height="75"/> 
+[C++]      | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/cpp.png" "width="75" height="75"/> | [Java]     | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/java.png" "width="75" height="75"/> 
+[Bash]     | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/bash.png" "width="75" height="75"/> | [Swift]    | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/swift.png" "width="75" height="75"/> 
+[Fantom]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/fantom.png" "width="75" height="75"/> | [Golang]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/golang.png" "width="75" height="75"/> 
+[Python]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/python.png" "width="75" height="75"/> | [Python3]  |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/python3.png" "width="75" height="75"/> 
+[Lolcode]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/lolcode.png" "width="75" height="75"/> |
 
 Languages on their way:
 - No other (for the moment)
+
+[C]: Corrections/Correction_C.c "C Correction"
+[C#]: Corrections/Correction_C#.cs "C# Correction"
+[C++]: Corrections/Correction_C++.cpp "C++ Correction"
+[Java]: Corrections/Correction_Java.java "Java Correction"
+[Bash]: Corrections/Correction_Bash.sh "Bash Correction"
+[Swift]: Corrections/Correction_Swift.swift "Swift Correction"
+[Fantom]: Corrections/Correction_Fantom.fan "Fantom Correction"
+[Golang]: Corrections/Correction_Golang.go "Golang Correction"
+[Python]: Corrections/Correction_Python.py "Python Correction"
+[Python3]: Corrections/Correction_Python3.py "Python3 Correction"
+[Lolcode]: Corrections/Correction_Lolcode.lol "Lolcode Correction"
