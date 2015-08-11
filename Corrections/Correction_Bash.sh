@@ -4,7 +4,7 @@
 #  BashCorrection
 #
 #  Created by P1kachu on 15/07/15.
-#  Copy$3 (c) 2015 P1kachu. All $3s reserved.
+#  Copyright (c) 2015 P1kachu. All rights reserved.
 #!/bin/sh
 
 

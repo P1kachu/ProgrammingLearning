@@ -17,7 +17,7 @@ OBTW Declare variables
      Declare two variables: an integer named "age", and a string named "name" with corresponding values (your name and age)
 TLDR
 I HAS A age ITZ 20
-I HAS A name ITZ "Stan"
+I HAS A name ITZ "P1kachu"
 
 OBTW Print
      Print the following sentence in the console "You are NAME and you are AGE years old !". Don't forget to add a newline at the end
