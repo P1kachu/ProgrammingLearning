@@ -51,10 +51,10 @@ for item in shoppingList:
 #   Modify the first for-loop (with i from 1 to 10) such that it prints "(value of i) is even" when "i" is divisible
 #   by 2 (You may want to learn more about "modulo" (%)). Else, print "(value of i) is odd".
 for i in xrange(1,10):
-    if i%2==0:
-        print i,"is even"
-    else:
+    if i%2:
         print i,"is odd"
+    else:
+        print i,"is even"
 
 #   FIXME: Sum Up
 #   Create a string variable called "element" with the value of your choice. Then create a for-loop that checks if "shoppingList" contains
@@ -117,8 +117,8 @@ print Subtraction(44,2)
 
 #   FIXME: User entry
 #   Create a string variable that takes what the user enter in the console as value. Then print "You entered (value of string)"
-# stringy = raw_input("Enter something:")
-# print "You entered", stringy
+stringy = raw_input("Enter something:")
+print "You entered", stringy
 
 #   FIXME: While loop
 #   Create a while loop that takes a number and divides it by 2 until it is less than 3
@@ -195,8 +195,12 @@ print switch[a]()
 #   Create 7 functions for each logic gates (And, Or, No, Nand, Nor, Xnor, Xor).
 #   Each function takes two booleans (or 0 and 1) as parameters and returns the result of the logic gate.
 #   (or You can do it with a switch and only one function)
+
+#   Logic gates are already well represented in python. so here are (strange) versions with numbers... 
+
 def And(nb1, nb2):
-    return nb1*nb2
+    return 1 if nb1*nb2 else 0
+
 def Or(nb1, nb2):
     if(nb1):
         return 1
@@ -204,20 +208,25 @@ def Or(nb1, nb2):
         if(nb2):
             return 1
     return 0
+
 def Xnor(nb1, nb2):
     if nb1 == nb2:
         return 1
     return 0
+
 def Xor(nb1, nb2):
     if nb1 != nb2:
         return 1
     return 0
+
 def No(nb1):
-    return abs(1-nb1)
+    return abs(1 - nb1)
+
 def Nand(nb1, nb2):
-    return abs(1-And(nb1, nb2))
+    return abs(1 - And(nb1, nb2))
+
 def Nor(nb1, nb2):
-    return abs(1-Or(nb1, nb2))
+    return abs(1 - Or(nb1, nb2))
 
 #   FIXME - Reverse
 #   Create a function that reverse a string (basic method)
