@@ -157,14 +157,14 @@ println(Division(10, 2))
 // Create a string variable that takes what the user enter in the console as value. Then print "You entered (value of string)"
 // At this point, the Swift programming language doessn't have any easy function to get the user input,
 // so you may skip this one. Here is a way to do it (Works in XCode6b5):
-/*func input() -> String
+func input() -> String
 {
     var keyboard = NSFileHandle.fileHandleWithStandardInput()
     var inputData = keyboard.availableData
     return NSString(data: inputData, encoding:NSUTF8StringEncoding)
 }
 var userInput:String = input()
-println("Uou entered \(userInput)")*/
+println("Uou entered \(userInput)")
 
 
 // FIXME: While loop
