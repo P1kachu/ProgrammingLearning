@@ -17,18 +17,20 @@
 
 //Function prototypes
 void TriForce();
-char * Hello(char name[]);
+
+char *Hello(char name[]);
+
 int Addition(int a, int b);
 int Subtraction(int a, int b);
 int Multiplication(int a, int b);
 int Division(int a, int b);
+
 int rdm();
 int rdmBounds(unsigned int min, unsigned int max);
 
+
 int main()
 {
-    
-    
     // Part One:
     
     
@@ -56,10 +58,9 @@ int main()
     // FIXME: For-loop - Integer
     // Create a simple for-loop for an integer "i" going from 1 to 10 that print the value of "i"
     for (int i = 0; i < 10; i++)
-    {
         printf("%d ",i);
-    }
     printf("\n");
+
     // FIXME: For-loop - shoppingList
     // Create a for loop that iterate through "shoppingList" and prints each element with "You have to buy (elemt)".
     for (int j = 0; j <nbOfElements; j++)
@@ -78,10 +79,10 @@ int main()
     // by 2 (You may want to learn more about "modulo" (%)). Else, print "(value of i) is odd".
     for (int i = 0; i < 10; i++)
     {
-        if (i % 2 == 0)
-            printf("%d is even\n",i);
-        else
+        if (i % 2)
             printf("%d is odd\n",i);
+        else
+            printf("%d is even\n",i);
     }
     
     
@@ -119,7 +120,7 @@ int main()
     // FIXME: Functions - One parameter
     // Create a function that takes a string as parameter and returns "Hello (value of string) !"
     // http://stackoverflow.com/questions/1745726/how-to-store-printf-into-a-variable
-    printf("%s",Hello("Stan"));
+    printf("%s", Hello("Stan"));
     
     // FIXME: Functions - Multiple parameters
     // Create a function that takes two integers as parameters and returns the addition of these two.
@@ -133,7 +134,7 @@ int main()
     
     // FIXME: User entry
     // Create a string variable that takes what the user enter in the console as value. Then print "You entered (value of string)"
-    char userInput[100]; // 10 will be the max length of the input
+    char userInput[100]; // 100 will be the max length of the input
     printf("Enter a word:");
     scanf("%s", userInput);
     printf("You entered %s\n", userInput);
@@ -165,7 +166,7 @@ int main()
     
     // FIXME: Random generator
     // Create a function that returns a random number
-    srand((unsigned)time(NULL));
+    srand((unsigned)time(NULL)); // time used for seeding
     printf("%d\n", rdm());
     
     
@@ -191,10 +192,10 @@ int main()
     for (int n = 0; n < numberOfElements(multiArray); n++)
     {
         printf("{");
+        
         for (int o = 0; o < numberOfElements(multiArray[n]); o++)
-        {
             printf("%d,", multiArray[n][o]);
-        }
+
         printf("}\n");
     }
 
