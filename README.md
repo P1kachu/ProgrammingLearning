@@ -48,6 +48,9 @@ Language |      | Language |      |
 Languages on their way:
 - No other (for the moment)
 
+Note:
+- The Swift correction was created at the time where XCode was in version 6b5. The language has evolved since and thus the correction may not be 100% accurate.
+
 [C]: Corrections/Correction_C.c "C Correction"
 [C#]: Corrections/Correction_C%23.cs "C# Correction"
 [C++]: Corrections/Correction_C++.cpp "C++ Correction"
