@@ -175,12 +175,6 @@ namespace CSharpCorrection
             }
             
             
-            // TODO: Switch
-
-            // TODO: logic Gates
-
-            // TODO - Reverse
-
             Console.Read(); //force the Console to wait before closing
         }
 

@@ -175,14 +175,6 @@ int main()
             cout << multiArray[i][j] << ",";
         cout << "}\n";
     }
-    
-    
-
-    // TODO: Switch
-
-    // TODO: logic Gates
-
-    // TODO - Reverse
 
     return 0;
     

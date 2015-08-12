@@ -199,12 +199,6 @@ int main()
         printf("}\n");
     }
 
-    // TODO: Switch
-
-    // TODO: logic Gates
-
-    // TODO - Reverse
-
     return 0;
 }
 
