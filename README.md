@@ -1,14 +1,7 @@
 How to learn a language
 =======================
 
-###Disclaimer
-These exercises and corrections are not here to teach how to code in a clean way.
-They are just here to teach the fundamentals of programming in different languages, and thus different syntaxes.
-Code factorisation, splitting into different files, or coding style for example are not resepcted due to the fact that they are not the goal here and would decrease readability (especially splitting into files).
-They are to be used as cheat sheets with quick access, not example of perfect code (thanksfully).  
-Thank you
-
-###Then, what is it ?
+###What is it ?
 How to practice a language !
 
 Here are some exercises to help you improve your skills in any programming language.
@@ -45,11 +38,15 @@ Language |      | Language |      |
 [Python]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/python.png" "width="75" height="75"/> | [Python3]  |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/python3.png" "width="75" height="75"/> 
 [Lolcode]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/lolcode.png" "width="75" height="75"/> |
 
-Languages on their way:
-- No other (for the moment)
-
-Note:
+###Notes
 - The Swift correction was created at the time where XCode was in version 6b5. The language has evolved since and thus the correction may not be 100% accurate.
+
+###Disclaimer
+These exercises and corrections are not here to teach how to code in a clean way.
+They are just here to teach the fundamentals of programming in different languages, and thus different syntaxes.
+Code factorisation, splitting into different files, or coding style for example are not resepcted due to the fact that they are not the goal here and would decrease readability (especially splitting into files).
+They are to be used as cheat sheets with quick access, not example of perfect code (thanksfully).  
+Thank you
 
 [C]: Corrections/Correction_C.c "C Correction"
 [C#]: Corrections/Correction_C%23.cs "C# Correction"
