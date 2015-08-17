@@ -5,7 +5,7 @@ How to learn a language
 How to practice a language !
 
 Here are some exercises to help you improve your skills in any programming language.
-The purpose of this project (and [Exercises Sheet]) is to allow anybody learning a new language to practice.
+The purpose of this project (and ![Exercises Sheet]) is to allow anybody learning a new language to practice.
 Exercises are ordered by difficulty.
 
 The exercises are taken from practical session from my first year.
