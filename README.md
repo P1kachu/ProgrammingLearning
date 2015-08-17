@@ -5,7 +5,7 @@ How to learn a language
 How to practice a language !
 
 Here are some exercises to help you improve your skills in any programming language.
-The purpose of this project (and exercise sheet) is to allow anybody learning a new language to practice.
+The purpose of this project (and [Exercises Sheet]) is to allow anybody learning a new language to practice.
 Exercises are ordered by difficulty.
 
 The exercises are taken from practical session from my first year.
@@ -59,3 +59,4 @@ Thank you
 [Python]: Corrections/Correction_Python.py "Python Correction"
 [Python3]: Corrections/Correction_Python3.py "Python3 Correction"
 [Lolcode]: Corrections/Correction_Lolcode.lol "Lolcode Correction"
+[Exercises Sheet] : Exercises_sheet.txt "Exercises"
