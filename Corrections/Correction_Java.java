@@ -43,7 +43,7 @@ class JavaCorrection
 
         // FIXME: For-loop - shoppingList
         // Create a for loop that iterate through "shoppingList" and prints each element.
-        for (int i = 0; i <nbOfElts; i++)
+        for (int i = 0; i < nbOfElts; i++)
             System.out.println(shoppingList[i]);
 
 
@@ -55,9 +55,9 @@ class JavaCorrection
         // FIXME: If-statement
         // Modify the first for-loop (with i from 1 to 10) such that it prints "(value of i) is even" when "i" is divisible
         // by 2 (You may want to learn more about "modulo" (%)). Else, print "(value of i) is odd".
-        for (int i = 1; i <11; i++)
+        for (int i = 1; i < 11; i++)
         {
-            if(i%2==0)
+            if(i % 2 == 0)
                 System.out.println(i + " is even");
             else
                 System.out.println(i + " is odd");
@@ -69,7 +69,7 @@ class JavaCorrection
         String element = "Pi";
         int tmp = 0;
         for (int i = 0; i < nbOfElts; i++)
-            if (shoppingList[i] == element)
+            if (shoppingList[i].equals(element))
                 tmp = 1;
         if (tmp)
             System.out.println("You have to buy " + element + " !");
@@ -110,7 +110,7 @@ class JavaCorrection
         while(nb >= 3)
         {
             System.out.println(nb);
-            nb/=2;
+            nb /= 2;
         }
 
         // FIXME: do-While loop
@@ -119,7 +119,7 @@ class JavaCorrection
         do
         {
             System.out.println(nb);
-            nb/=2;
+            nb /= 2;
         }while(nb >= 3);
 
         // FIXME: Random generator
@@ -138,16 +138,17 @@ class JavaCorrection
         // {x1,x2,x3,}
         // {x4,x5,x6,}
         // {x7,x8,x9,}
-        int[][] array = new int[3][3];
-        for (int i = 0; i < 3; i++)
-            for (int j = 0; j < 3; j++)
+        int size = 3;
+        int[][] array = new int[size][size];
+        for (int i = 0; i < size; i++)
+            for (int j = 0; j < size; j++)
                 array[i][j] = randIntBounds(0,9);
 
 
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i < size; i++)
         {
             System.out.print("{");
-            for (int j = 0; j < 3; j++)
+            for (int j = 0; j < size; j++)
                 System.out.print(array[i][j] + ",");
             System.out.println("}");
         }
@@ -242,11 +243,11 @@ class JavaCorrection
             boolean a;
             boolean b;
 
-            if ( left == "true")
+            if (left.equals("true"))
             a = true;
             else a = false;
 
-            if ( right == "true")
+            if (right.equals("true"))
             b = true;
             else b = false;
 
@@ -345,7 +346,7 @@ class JavaCorrection
         {
             char[] array = str.toCharArray();
             String stringy = "";
-            for (int i = str.length() - 1; i>=0; i--)
+            for (int i = str.length() - 1; i >= 0; i--)
                 stringy += array[i];
             return stringy;
         }
