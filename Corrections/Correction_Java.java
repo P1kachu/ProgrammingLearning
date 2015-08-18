@@ -38,7 +38,7 @@ class JavaCorrection
 
         // FIXME: For-loop - Integer
         // Create a simple for-loop for an integer "i" going from 1 to 10 that prints the value of "i"
-        for (int i = 1; i <11; i++)
+        for (int i = 1; i < 11; i++)
             System.out.println(i);
 
         // FIXME: For-loop - shoppingList
