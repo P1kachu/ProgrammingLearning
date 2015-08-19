@@ -1,7 +1,8 @@
 How to learn a language
 =======================
 
-###What is it ?
+###What is it ?    
+"I like it. Simple. Easy to remember."    
 How to practice a language !
 
 Here are some exercises to help you improve your skills in any programming language.
