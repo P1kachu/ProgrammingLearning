@@ -24,8 +24,8 @@ Good luck :)
 
 Create a new project for the language you want to learn and add the correct correction file with the
 right extension (.c for c, .cpp for C++, .cs for C#, etc.) regarding the language.
-You will need to add the corresponding headers/library/etc.
-Exercises sheets:
+You will need to add the corresponding headers/library/etc.    
+Exercises sheets:     
 - [\-\- style] comments
 - [%  style] comments
 - [#  style] comments
