@@ -26,7 +26,7 @@ Create a new project for the language you want to learn and add the correct corr
 right extension (.c for c, .cpp for C++, .cs for C#, etc.) regarding the language.
 You will need to add the corresponding headers/library/etc.
 Exercises sheets:
-- \-\- [dash]
+- [\-\- style comments]
 - %  Style comments
 - #  Style comments
 - ;  Style comments
@@ -65,8 +65,5 @@ Thank you
 [Python]: Corrections/Correction_Python.py "Python Correction"
 [Python3]: Corrections/Correction_Python3.py "Python3 Correction"
 [Lolcode]: Corrections/Correction_Lolcode.lol "Lolcode Correction"
-[dash]: Exercises(Double-Dash-Style_comments).txt "-- Exercises"
-[hashtag]: Exercises(Double-Dash-Style_comments).txt "# Exercises"
-[percent]: Exercises(Double-Dash-Style_comments).txt "% Exercises"
-[semicolon]: Exercises(Double-Dash-Style_comments).txt "; Exercises"
-[slash]: Exercises(Double-Dash-Style_comments).txt "// Exercises"
+
+[\-\- style comments]: Exercises(Double-Dash-Style_comments).txt "-- Exercises"
