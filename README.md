@@ -5,7 +5,7 @@ How to learn a language
 How to practice a language !
 
 Here are some exercises to help you improve your skills in any programming language.
-The purpose of this project (and [Exercises]) is to allow anybody learning a new language to practice.
+The purpose of this project (and Exercises) is to allow anybody learning a new language to practice.
 Exercises are ordered by difficulty.
 
 The exercises are taken from practical session from my first year.
@@ -22,9 +22,15 @@ you were not looking for !
 
 Good luck :)
 
-Create a new project for the language you want to learn and add this file with the
+Create a new project for the language you want to learn and add the correct correction file with the
 right extension (.c for c, .cpp for C++, .cs for C#, etc.) regarding the language.
 You will need to add the corresponding headers/library/etc.
+Exercises sheets:
+- \-\- dash
+- %  Style comments
+- #  Style comments
+- ;  Style comments
+- // Style comments
 
 
 ###Languages currently available
@@ -59,4 +65,8 @@ Thank you
 [Python]: Corrections/Correction_Python.py "Python Correction"
 [Python3]: Corrections/Correction_Python3.py "Python3 Correction"
 [Lolcode]: Corrections/Correction_Lolcode.lol "Lolcode Correction"
-[Exercises]: Exercises_sheet.txt "Exercises"
+[dash]: Exercises(Double-Dash-Style_comments).txt "-- Exercises"
+[hashtag]: Exercises(Double-Dash-Style_comments).txt "# Exercises"
+[percent]: Exercises(Double-Dash-Style_comments).txt "% Exercises"
+[semicolon]: Exercises(Double-Dash-Style_comments).txt "; Exercises"
+[slash]: Exercises(Double-Dash-Style_comments).txt "// Exercises"
