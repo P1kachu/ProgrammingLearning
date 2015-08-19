@@ -26,7 +26,7 @@ Create a new project for the language you want to learn and add the correct corr
 right extension (.c for c, .cpp for C++, .cs for C#, etc.) regarding the language.
 You will need to add the corresponding headers/library/etc.
 Exercises sheets:
-- \-\- dash
+- \-\- [dash]
 - %  Style comments
 - #  Style comments
 - ;  Style comments
