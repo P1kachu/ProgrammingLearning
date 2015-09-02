@@ -1,16 +1,17 @@
-How to learn a language
-=======================
+ProgrammingLearning
+===================
 
 ###What is it ?    
 "I like it. Simple. Easy to remember."    
-How to practice a language !
 
-Here are some exercises to help you improve your skills in any programming language.
-The purpose of this project (and Exercises) is to allow anybody learning a new language to practice.
-Exercises are ordered by difficulty.
+When I want to learn a new language, I tend to rewrite the same usual basic stuff everytime, to get used to the syntax.  ProgrammingLearning is an attempt to be a standalone exercise sheet that would provide the required knowledge in any programming language to get a good start.     
+
+*You want to learn a new language ?* Then take the exercise sheet, and code. Look for answers on StackOverflow, ask questions, and if you really are stuck, check if the correction is available in your language.     
+
+*You know a programming language that has not been corrected yet ?* Then feel free to do a merge request and share your knowledge with everyone. More reviewers and corrections equals more programmers !
 
 The exercises are taken from practical session from my first year.
-Document will be updated with new exercises and corrections are available for some languages.
+Document will be updated with new exercises, and corrections are available for some languages.
 Since I am far from knowing every programming language, some exercise may not be as easy as they could be.
 Feel free to send me corrections for languages that are not available yet,
 new exercises ideas or any mistakes that I could have made !
@@ -21,11 +22,8 @@ Tutorials are available all around the internet, but searching by yourself helps
 you were not looking for !
 
 
-Good luck :)
+Good luck !    
 
-Create a new project for the language you want to learn and add the correct correction file with the
-right extension (.c for c, .cpp for C++, .cs for C#, etc.) regarding the language.
-You will need to add the corresponding headers/library/etc.    
 Exercises sheets:     
 - [\-\- style] comments
 - [%  style] comments
