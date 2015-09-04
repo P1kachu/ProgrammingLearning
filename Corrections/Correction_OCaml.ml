@@ -113,11 +113,23 @@ hello_function "my friend";;
  *  Create a function that takes two integers as parameters and returns the addition of these two.
  *  You can do the same with multiplication, subtraction and division.
 *)
+let p_int x = print_endline (string_of_int x);; (* DISPLAY AN INT WITH A NEWLINE *)
+
+let addition int1 int2 = int1 + int2;;
+p_int (addition 21 21)
+let substraction int1 int2 = int1 - int2;;
+p_int (substraction 21 21)
+let multiplication int1 int2 = int1 * int2;;
+p_int (multiplication 2 21)
+let division int1 int2 = int1 / int2;;
+p_int (division 84 2)
  
 (*  FIXME: User entry
  *  Create a string variable that takes what the user enter in the console as value. Then print "You entered (value of string)"
 *)
- 
+let user_input = read_line ();;
+print_endline ("You entered " ^ user_input)
+
 (*  FIXME: While loop
  *  Create a while loop that takes a number and divides it by 2 until it is less than 3
 *)
