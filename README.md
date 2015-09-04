@@ -30,6 +30,7 @@ Exercises sheets:
 - [#  style] comments
 - [;  style] comments
 - [// style] comments
+- [(* style] comments
 
 
 ###Languages currently available
@@ -70,3 +71,4 @@ Thank you
 [#  style]: Exercises(Hashtag-Style_comments).txt "#"
 [;  style]: Exercises(Semicolon-Style_comments).txt ";"
 [// style]: Exercises(Slash-Style_comments).txt "//"
+[(* style]: Exercises(Parenthesis-Style_comments).txt "(*"
