@@ -30,6 +30,7 @@ you were not looking for !
 Good luck !    
 
 Exercises sheets:     
+- [Plaintext]
 - [\-\- style] comments
 - [%  style] comments
 - [#  style] comments
@@ -77,3 +78,4 @@ Thank you
 [;  style]: Exercises/Exercises(Semicolon-Style_comments).txt ";"
 [// style]: Exercises/Exercises(Slash-Style_comments).txt "//"
 [(* style]: Exercises/Exercises(Parenthesis-Style_comments).txt "(*"
+[Plaintext]: Exercises/Exercises(Plaintext).txt "Text"
