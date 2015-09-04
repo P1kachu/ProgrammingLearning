@@ -52,21 +52,27 @@ let array_size = Array.length shoppingList;;
  *  Create a simple for-loop for an integer "i" going from 1 to 10 that print the value of "i"
 *)
 for i = 1 to 10 do
-  print_endline (string_of_int i)
-done
+    print_endline (string_of_int i) (* No semicolon *)
+done;;
 
 (*  FIXME: For-loop - shoppingList
  *  Create a for loop that iterate through "shoppingList" and prints each element.
 *)
+for i = 0 to array_size - 1 do (print_endline (shoppingList.(i))) done;;
  
 (*  FIXME: Foreach-loop
  *  Do the same with a foreach-loop.
 *)
- 
+Array.iter(fun s -> print_endline s) shoppingList;;
+
 (*  FIXME: If-statement
  *  Modify the first for-loop (with i from 1 to 10) such that it prints "(value of i) is even" when "i" is divisible
  *  by 2 (You may want to learn more about "modulo" (%)). Else, print "(value of i) is odd".
 *)
+for i = 1 to 10 do
+    if i mod 2 = 0 then (print_endline ((string_of_int i) ^ " is even"))
+    else (print_endline ((string_of_int i) ^ " is odd"))
+done;;
  
 (*  FIXME: Sum Up
  *  Create a string variable called "element" with the value of your choice. Then create a for-loop that checks if "shoppingList" contains 
