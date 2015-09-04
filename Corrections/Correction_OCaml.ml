@@ -79,7 +79,8 @@ done;;
  *  "element". If yes, print "You have to buy (value of element) !", and stop the loop (search how to stop a loop).
  *  If not, print "Nope, you don't need (value of "element")".
 *)
- 
+
+(* FUCK DAT *)
 
 
 
@@ -92,12 +93,22 @@ done;;
  *  and print the TriForce symbol (one triangle over two other ones, can be found on internet) with "TRIFORCE"
  *  Don't forget to call the function !
 *)
- 
+let triforce () = 
+    print_endline "   /\\  ";
+    print_endline "  /__\\ ";
+    print_endline " /\\  /\\  ";
+    print_endline "/__\\/__\\ ";
+    print_endline  "TRIFORCE";;
+
+triforce ();;
 
 (*  FIXME: Functions - One parameter
  *  Create a function that takes a string as parameter and returns "Hello (value of string) !"
 *)
- 
+let hello_function str = 
+    print_endline ("Hello " ^ str ^ " !");;
+hello_function "my friend";;
+
 (*  FIXME: Functions - Multiple parameters
  *  Create a function that takes two integers as parameters and returns the addition of these two.
  *  You can do the same with multiplication, subtraction and division.
