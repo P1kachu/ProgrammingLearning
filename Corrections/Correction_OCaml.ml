@@ -133,7 +133,8 @@ print_endline ("You entered " ^ user_input)
 (*  FIXME: While loop
  *  Create a while loop that takes a number and divides it by 2 until it is less than 3
 *)
- 
+
+
 (*  FIXME: do-While loop
  *  Do the same with a do-while loop
 *)
