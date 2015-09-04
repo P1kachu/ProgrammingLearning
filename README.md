@@ -1,15 +1,20 @@
 ProgrammingLearning
 ===================
 
-###What is it ?    
+#What is it ?    
 "I like it. Simple. Easy to remember."    
 
 When I want to learn a new language, I tend to rewrite the same usual basic stuff everytime, to get used to the syntax.  ProgrammingLearning is an attempt to be a standalone exercise sheet that would provide the required knowledge in any programming language to get a good start.     
 
-*You want to learn a new language ?* Then take the exercise sheet, and code. Look for answers on StackOverflow, ask questions, and if you really are stuck, check if the correction is available in your language.     
 
-*You know a programming language that has not been corrected yet ?* Then feel free to do a merge request and share your knowledge with everyone. More reviewers and corrections equals more programmers !
+####You want to learn a new language ?
+Then take the exercise sheet, and code. Look for answers on StackOverflow, ask questions, and if you really are stuck, check if the correction is available in your language.     
 
+####You know a programming language that has not been corrected yet ?
+Then feel free to do a merge request and share your knowledge with everyone. Share it with your fellows too, more reviewers and corrections equals more programmers ! 
+
+
+####How does it work ?
 The exercises are taken from practical session from my first year.
 Document will be updated with new exercises, and corrections are available for some languages.
 Since I am far from knowing every programming language, some exercise may not be as easy as they could be.
@@ -33,7 +38,7 @@ Exercises sheets:
 - [(* style] comments
 
 
-###Languages currently available
+#Languages currently available
 
 Language |      | Language |      |
 ---------|------|----------|------|
@@ -44,10 +49,10 @@ Language |      | Language |      |
 [Python]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/python.png" "width="75" height="75"/> | [Python3]  |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/python3.png" "width="75" height="75"/> 
 [Lolcode]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/lolcode.png" "width="75" height="75"/> |
 
-###Notes
+#Notes
 - The Swift correction was created at the time where XCode was in version 6b5. The language has evolved since and thus the correction may not be 100% accurate.
 
-###Disclaimer
+#Disclaimer
 These exercises and corrections are not here to teach how to code in a clean way.
 They are just here to teach the fundamentals of programming in different languages, and thus different syntaxes.
 Code factorisation, splitting into different files, or coding style for example are not resepcted due to the fact that they are not the goal here and would decrease readability (especially splitting into files).
