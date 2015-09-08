@@ -128,12 +128,15 @@ p_int (division 84 2)
  *  Create a string variable that takes what the user enter in the console as value. Then print "You entered (value of string)"
 *)
 let user_input = read_line ();;
-print_endline ("You entered " ^ user_input)
+print_endline ("You entered " ^ user_input);;
 
 (*  FIXME: While loop
  *  Create a while loop that takes a number and divides it by 2 until it is less than 3
 *)
-
+let a = 42;;
+while a > 3 do
+  let a = a/2
+done;;
 
 (*  FIXME: do-While loop
  *  Do the same with a do-while loop
