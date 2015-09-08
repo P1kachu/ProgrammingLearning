@@ -48,7 +48,7 @@ Language |      | Language |      |
 [Bash]     | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/bash.png" "width="75" height="75"/> | [Swift]    | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/swift.png" "width="75" height="75"/> 
 [Fantom]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/fantom.png" "width="75" height="75"/> | [Golang]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/golang.png" "width="75" height="75"/> 
 [Python]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/python.png" "width="75" height="75"/> | [Python3]  |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/python3.png" "width="75" height="75"/> 
-[Lolcode]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/lolcode.png" "width="75" height="75"/> |
+[Lolcode]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/lolcode.png" "width="75" height="75"/> | [Ocaml (WIP)]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/ocaml.png" "width="75" height="75"/> |
 
 #Notes
 - The Swift correction was created at the time where XCode was in version 6b5. The language has evolved since and thus the correction may not be 100% accurate.
@@ -66,6 +66,7 @@ Thank you
 [Java]: Corrections/Correction_Java.java "Java Correction"
 [Bash]: Corrections/Correction_Bash.sh "Bash Correction"
 [Swift]: Corrections/Correction_Swift.swift "Swift Correction"
+[Ocaml]: Corrections/Correction_Ocaml(UNFINISHED).swift "Ocaml Correction"
 [Fantom]: Corrections/Correction_Fantom.fan "Fantom Correction"
 [Golang]: Corrections/Correction_Golang.go "Golang Correction"
 [Python]: Corrections/Correction_Python.py "Python Correction"
