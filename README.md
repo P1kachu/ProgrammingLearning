@@ -66,7 +66,7 @@ Thank you
 [Java]: Corrections/Correction_Java.java "Java Correction"
 [Bash]: Corrections/Correction_Bash.sh "Bash Correction"
 [Swift]: Corrections/Correction_Swift.swift "Swift Correction"
-[Ocaml (WIP)]: Corrections/Correction_Ocaml(UNFINISHED).swift "Ocaml Correction"
+[Ocaml (WIP)]: Corrections/Correction_OCaml(UNFINISHED).swift "Ocaml Correction"
 [Fantom]: Corrections/Correction_Fantom.fan "Fantom Correction"
 [Golang]: Corrections/Correction_Golang.go "Golang Correction"
 [Python]: Corrections/Correction_Python.py "Python Correction"
