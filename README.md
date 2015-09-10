@@ -62,7 +62,9 @@ They are to be used as cheat sheets with quick access, not example of perfect co
 Thank you
 
 #Contributors
-- [Lockf0rc] (PHP Correction)
+- [Lockf0rc] who took care of the PHP Correction.
+
+Thanks to you !
 
 [C]: Corrections/Correction_C.c "C Correction"
 [C#]: Corrections/Correction_C%23.cs "C# Correction"
