@@ -182,18 +182,73 @@ $c2=array(rnn(1,1000),rnn(1,1000),rnn(1,1000));
 $c3=array(rnn(1,1000),rnn(1,1000),rnn(1,1000));
 $box= array($c1,$c2,$c3);
 
-foreach($box as list($row))
-
+foreach($box as list($col1,$col2,$col3))
+{
+echo "[$col1,$col2,$col3]";
+}
 // FIXME: Switch
 // Create a Switch that takes an integer "a" and return a sentence regarding the value of a
 // (Create 3 statements for 3 specific values and a default one)
+
+$a=10;
+switch($a){
+case (5 <= $a):
+  echo "value is greater or equal to 5";
+break;
+case (8 <= $a) :
+  echo "value is greater or equal to 8";
+break;
+case (12 <= $a):
+  echo "value is greater or equal to 12";
+  break;
+default : echo "UNKNOWN";  
+}
+
 
 // FIXME: logic Gates
 // Create 7 functions for each logic gates (And, Or, No, Nand, Nor, Xnor, Xor).
 // Each function takes two booleans as parameters and returns the result of the logic gate.
 // (or You can do it with a switch and only one function)
 
+//AND
+function cmpAND($a,$b){ 
+$result=($a && $b);
+return $result;
+}
+//OR
+function cmpOR($a,$b){
+$result=($a || $b);
+return $result;
+}
+//XOR
+function cmpXOR($a,$b){
+$result=($a xor $b);
+return $result;
+}
+//NOT
+
+//NAND
+function cmpNAND($a,$b){
+$result=!($a && $b);
+return $result;
+}
+//
+function cmpNOR($a,$b){
+$result=!($a || $b);
+return $result;
+}
+
+function cmpXNOR($a,$b){
+$result=!($a xor $b);
+return $result;
+}
+
+
+
 // FIXME - Reverse
 // Create a function that reverse a string
+
+
+echo strrev("Hello world!"); // outputs !dlrow olleH
 
 
