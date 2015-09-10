@@ -31,7 +31,7 @@
     // FiXME: Concatenation
     // Create a new string variable called "hello" which value is "Hello ". Add "name" at the end of "hello" (Concatenation) then print it
     
-    $hello="hello".$name; //  dot "." is used for concatenation
+    $hello="Hello ".$name; //  dot "." is used for concatenation
 ?>
 
 <?php
