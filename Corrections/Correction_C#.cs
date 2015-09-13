@@ -209,6 +209,10 @@ TRIFORCE"
 
         static string Hello(string name)
         {
+            if (name == null)
+            {
+                throw new ArgumentNullException(nameof(name));
+            }
             return string.Format("Hello {0} !{1}", name, Environment.NewLine);
         }
 
