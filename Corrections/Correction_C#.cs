@@ -1,4 +1,4 @@
-﻿//
+//
 //  CSharpCorrection.cs
 //  CSharpCorrection
 //
@@ -27,9 +27,9 @@ namespace CSharpCorrection
 
             // FIXME: Print
             // Print the following sentence in the console "You are NAME and you are AGE years old !". Don't forget to add a newline at the end
-            Console.WriteLine("You are " + name + " and you are " + age + " years old !");
+            Console.WriteLine("You are {0} and you are {1} years old !", name, age);
             //or 
-            Console.Write("You are " + name + " and you are " + age + " years old !\n");
+            Console.Write("You are {0} and you are {1} years old ! {2}", name, age, Environment.NewLine);
 
             // FiXME: Concatenation
             // Create a new string variable called "hello" which value is "Hello ". Add "name" at the end of "hello" (Concatenation) then print it
@@ -46,17 +46,23 @@ namespace CSharpCorrection
             // FIXME: For-loop - Integer
             // Create a simple for-loop for an integer "i" going from 1 to 10 that print the value of "i"
             for (int i = 1; i <= 10; i++)
+            {
                 Console.WriteLine(i);
+            }
 
             // FIXME: For-loop - shoppingList
             // Create a for loop that iterate through "shoppingList" and prints each element.
             for (int j = 0; j < nbOfElements; j++)
+            {
                 Console.WriteLine(shoppingList[j]);
+            }
 
             // FIXME: Foreach-loop
             // Do the same with a foreach-loop.
             foreach (string elt in shoppingList)
+            {
                 Console.WriteLine(elt);
+            }
 
             // FIXME: If-statement
             // Modify the first for-loop (with i from 1 to 10) such that it prints "(value of i) is even" when "i" is divisible
@@ -64,9 +70,13 @@ namespace CSharpCorrection
             for (int i = 1; i <= 10; i++)
             {
                 if (i % 2 == 0)
-                    Console.WriteLine(i + " is even");
+                {
+                    Console.WriteLine("{0} is even", i);
+                }
                 else
-                    Console.WriteLine(i + " is odd");
+                {
+                    Console.WriteLine("{0} is odd", i);
+                }
             }
 
             // FIXME: Sum Up
@@ -76,16 +86,17 @@ namespace CSharpCorrection
             string element = "a life";
             for (int i = 0; i < nbOfElements; i++)
             {
-                if (element == shoppingList[i])
+                var currentElm = shoppingList[i];
+                if (element == currentElm)
                 {
-                    Console.WriteLine("You have to buy " + shoppingList[i] + " !");
+                    Console.WriteLine("You have to buy {0} !", currentElm);
                     break;
                 }
                 else
-                    Console.WriteLine("Nope, you don't need " + shoppingList[i] + " !");
+                {
+                    Console.WriteLine("Nope, you don't need {0} !", currentElm);
+                }
             }
-
-
 
 
 
@@ -102,7 +113,7 @@ namespace CSharpCorrection
             // FIXME: Functions - One parameter
             // Create a function that takes a string as parameter and returns "Hello (value of string) !"
             Console.WriteLine(Hello("Stan"));
-            
+
             // FIXME: Functions - Multiple parameters
             // Create a function that takes two integers as parameters and returns the addition of these two.
             // You can do the same with multiplication, subtraction and division.
@@ -111,13 +122,13 @@ namespace CSharpCorrection
             Console.WriteLine(Multiplication(5, 12));
             Console.WriteLine(Division(5, 12)); // returns 0 because "a" and "b" are Integers (no point)
             Console.WriteLine(Division(10, 2));
-            
+
             // FIXME: User entry
             // Create a string variable that takes what the user enter in the console as value. Then print "You entered (value of string)"
             string userInput;
             userInput = Console.ReadLine();
-            Console.WriteLine("You entered " + userInput);
-            
+            Console.WriteLine("You entered {0}", userInput);
+
             // FIXME: While loop
             // Create a while loop that takes a number and divides it by 2 until it is less than 3
             int number = 56;
@@ -126,7 +137,7 @@ namespace CSharpCorrection
                 number /= 2;
                 Console.WriteLine(number);
             }
-            
+
             // FIXME: do-While loop
             // Do the same with a do-while loop
             int number2 = 86;
@@ -134,18 +145,18 @@ namespace CSharpCorrection
             {
                 number2 /= 2;
                 Console.WriteLine(number2);
-            }while (number2 > 3);
-            
+            } while (number2 > 3);
+
             // FIXME: Random generator
             // Create a function that returns a random number
-            Console.WriteLine(rdm());
-            Console.WriteLine(rdm());
-            
+            Console.WriteLine(rnd());
+            Console.WriteLine(rnd());
+
             // FIXME: Random generator with bounds
             // Create another function that returns a random number between two bounds given as parameters.
-            Console.WriteLine(rdmBounds(2,26));
-            Console.WriteLine(rdmBounds(2,26));
-            
+            Console.WriteLine(rnd(2, 26));
+            Console.WriteLine(rnd(2, 26));
+
             // FIXME: Multidimensional array
             // Create a two dimensional int array of 3 columns and 3 rows. Use 2 for-loops to add a random number
             // between 1 and 9 in each of the 9 rooms.
@@ -157,39 +168,48 @@ namespace CSharpCorrection
             int[][] multiArray = new int[3][];
 
             for (int i = 0; i < multiArray.Length; i++)
+            {
                 multiArray[i] = new int[3];
+            }
 
             for (int i = 0; i < multiArray.Length; i++)
+            {
                 for (int j = 0; j < multiArray[i].Length; j++)
-                    multiArray[i][j] = rdmBounds(0, 10);
-            
-            
-            for (int i = 0; i  <multiArray.Length; i++)
+                {
+                    multiArray[i][j] = rnd(0, 10);
+                }
+            }
+
+            for (int i = 0; i < multiArray.Length; i++)
             {
                 Console.Write("{");
 
                 for (int j = 0; j < multiArray[i].Length; j++)
+                {
                     Console.Write(multiArray[i][j] + ",");
-                    
+                }
+
                 Console.WriteLine("}");
             }
-            
-            
+
             Console.Read(); //force the Console to wait before closing
         }
 
         static void TriForce()
         {
-            Console.WriteLine("   /\\  ");
-            Console.WriteLine("  /__\\ ");
-            Console.WriteLine(" /\\  /\\  ");
-            Console.WriteLine("/__\\/__\\ ");
-            Console.WriteLine("TRIFORCE");
+            Console.WriteLine(@"
+   /\
+  /__\ 
+ /\  /\ 
+/__\/__\  
+TRIFORCE"
+);
+           
         }
 
         static string Hello(string name)
         {
-            return "Hello " + name + " !\n";
+            return string.Format("Hello {0} !{1}", name, Environment.NewLine);
         }
 
         static int Addition(int a, int b)
@@ -211,18 +231,27 @@ namespace CSharpCorrection
 
         static int Division(int a, int b)
         {
+            if (b == 0)
+            {
+                throw new ArgumentOutOfRangeException(string.Format("{0} must not be zero", nameof(b)));
+            }
             return a / b;
         }
 
-        static Random rand = new Random();
-        static int rdm()
+        static readonly Random rand = new Random();
+        static int rnd()
         {
             return rand.Next();
         }
 
 
-        static int rdmBounds(int min, int max)
+        static int rnd(int min, int max)
         {
+            if (min > max)
+            {
+                throw new ArgumentOutOfRangeException(string.Format("{0} must be inferior to {1}", nameof(min), nameof(max)));
+            }
+
             return rand.Next(min, max + 1);
         }
     }
