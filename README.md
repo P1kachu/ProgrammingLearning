@@ -63,6 +63,7 @@ Thank you
 
 #Contributors
 - [Lockf0rc] who took care of the PHP Correction.
+- [Nementon] who reviewed and corrected the C# Correction.
 
 Thanks to you !
 
@@ -89,3 +90,4 @@ Thanks to you !
 [Plaintext]: Exercises/Exercises(Plaintext).txt "Text"
 
 [Lockf0rc]: https://github.com/Lockf0rc
+[Nementon]: https://github.com/Nementon
