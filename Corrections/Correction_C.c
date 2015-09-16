@@ -12,7 +12,7 @@
 #include <stdlib.h>
 #include <string.h> //easier for string processing
 #include <time.h> //for random generation
-#define numberOfElements(x) (int)(sizeof(x) / sizeof(x[0])) //used to check how many elements are in an array for example
+#define numberOfElements(x) (int)(sizeof (x) / sizeof (x[0])) //used to check how many elements are in an array for example
 
 
 //Function prototypes
@@ -59,7 +59,7 @@ int main()
     // FIXME: For-loop - Integer
     // Create a simple for-loop for an integer "i" going from 1 to 10 that print the value of "i"
     for (int i = 0; i < 10; i++)
-        printf("%d ",i);
+        printf("%d ", i);
     printf("\n");
 
     // FIXME: For-loop - shoppingList
@@ -81,9 +81,9 @@ int main()
     for (int i = 0; i < 10; i++)
     {
         if (i % 2)
-            printf("%d is odd\n",i);
+            printf("%d is odd\n", i);
         else
-            printf("%d is even\n",i);
+            printf("%d is even\n", i);
     }
     
     
@@ -95,7 +95,7 @@ int main()
     char element[] = "a life";
     for (int k = 0; k < nbOfElements; k++)
     {
-        if(strcmp(element, shoppingList[k]) == 0)
+        if (strcmp(element, shoppingList[k]) == 0)
         {
             printf("You have to buy %s !\n", shoppingList[k]);
             break;
@@ -173,7 +173,7 @@ int main()
     
     // FIXME: Random generator with bounds
     // Create another function that returns a random number between two bounds given as parameters.
-    printf("%d\n", rdmBounds(10,20));
+    printf("%d\n", rdmBounds(10, 20));
     
     
     
@@ -181,10 +181,10 @@ int main()
     // Create a two dimensionnal int array of 3 columns and 3 rows. Use 2 for-loops to add a random number
     // between 1 and 9 in each of the 9 rooms.
     // You may use one of the two previously created function.
-    // Then print them such that they appear like this (with [x1,x9] being the 9 random integers):
-    // {x1,x2,x3,}
-    // {x4,x5,x6,}
-    // {x7,x8,x9,}
+    // Then print them such that they appear like this (with [x1, x9] being the 9 random integers):
+    // {x1, x2, x3, }
+    // {x4, x5, x6, }
+    // {x7, x8, x9, }
     int multiArray[3][3];
     for (int l = 0; l < numberOfElements(multiArray); l++)
         for (int m = 0; m < numberOfElements(multiArray[l]); m++)
@@ -195,7 +195,7 @@ int main()
         printf("{");
         
         for (int o = 0; o < numberOfElements(multiArray[n]); o++)
-            printf("%d,", multiArray[n][o]);
+            printf("%d, ", multiArray[n][o]);
 
         printf("}\n");
     }
@@ -222,7 +222,7 @@ int main()
     
     default:
         printf("I don't know what \"a\" is... :'(\n");
-        break;       
+        break;
     }
 
     // FIXME: logic Gates
@@ -239,7 +239,7 @@ int main()
 
     reverse("Hello world");
     return 0;
-}        
+}
         
 
 void TriForce()
