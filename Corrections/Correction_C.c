@@ -27,7 +27,8 @@ int Division(int a, int b);
 
 int rdm();
 int rdmBounds(unsigned int min, unsigned int max);
-
+void logic_gates(int op1, int gate, int op2);
+void reverse(char str[]);
 
 int main()
 {
@@ -199,9 +200,47 @@ int main()
         printf("}\n");
     }
 
-    return 0;
-}
+    // FIXME: Switch
+    // Create a Switch that takes an integer "a" and return a sentence regarding the value of a
+    // (Create 3 statements for 3 specific values and a default one)
 
+    int a = 2;
+
+    switch(a)
+    {
+    case 0:
+        printf("a is 0\n");
+        break;
+
+    case 2:
+        printf("a is 2\n");
+        break;
+    
+    case 37:
+        printf("Who cares about a anyway ?");
+        break;
+    
+    default:
+        printf("I don't know what \"a\" is... :'(\n");
+        break;       
+    }
+
+    // FIXME: logic Gates
+    // Create 7 functions for each logic gates (And (0), Or (1), No (2), Nand (3), Nor (4), Xnor (5), Xor (6)).
+    // Each function takes two booleans as parameters and returns the result of the logic gate.
+    // (or You can do it with a switch and only one function)
+
+    logic_gates(1, 0, 1);
+    logic_gates(1, 1, 1);
+    logic_gates(1, 2, 1);
+
+    // FIXME - Reverse
+    // Create a function that reverse a string
+
+    reverse("Hello world");
+    return 0;
+}        
+        
 
 void TriForce()
 {
@@ -240,7 +279,6 @@ int Division(int a, int b)
     return a / b;
 }
 
-
 int rdm()
 {
     return rand();
@@ -251,11 +289,40 @@ int rdmBounds(unsigned int min, unsigned int max)
     
 }
 
+void logic_gates(int op1, int gate, int op2)
+{
+    // op1 and op2 being 1 or 0 (easier)
+    switch(gate)
+    {
+    case 0:
+        printf("%d AND %d = %d\n", op1, op2, (op1 && op2));
+        break;
+    case 1:
+        printf("%d OR %d = %d\n", op1, op2, (op1 || op2));
+        break;
+    case 2:
+        printf("NO %d = %d\n", op1, !op1);
+        break;
+    case 3:
+        printf("%d NAND %d = %d\n", op1, op2, !(op1 && op2));
+        break;
+    case 4:
+        printf("%d NOR %d = %d\n", op1, op2, !(op1 || op2));
+        break;
+    case 5:
+        printf("%d XNOR %d = %d\n", op1, op2, (op1 == op2));
+        break;
+    case 6:
+        printf("%d XOR %d = %d\n", op1, op2, !(op1 == op2));
+        break;
+    default:
+        printf("Not a valid gate\n");
+    }
+}
 
-
-
-
-
-
-
-
+void reverse(char str[])
+{
+    for (int i = strlen(str); i >= 0; --i)
+        printf("%c", str[i]);
+    printf("\n");
+}
