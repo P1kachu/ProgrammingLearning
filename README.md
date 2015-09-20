@@ -80,6 +80,7 @@ Thanks to you !
 [Python]: Corrections/Correction_Python.py "Python Correction"
 [Python3]: Corrections/Correction_Python3.py "Python3 Correction"
 [Lolcode]: Corrections/Correction_Lolcode.lol "Lolcode Correction"
+[Scala]: Corrections/Correction_Scala.scala "Scala Correction"
 
 [\-\- style]: Exercises/Exercises(Double-Dash-Style_comments).txt "--"
 [%  style]: Exercises/Exercises(Percent-Style_comments).txt "%"
