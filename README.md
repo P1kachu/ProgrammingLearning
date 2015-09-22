@@ -103,4 +103,4 @@ Thanks to you !
 
 [Lockf0rc]: https://github.com/Lockf0rc
 [Nementon]: https://github.com/Nementon
-[ShaidK]  : https://github.com/ShaidK
+[ShaidK]: https://github.com/ShaidK
