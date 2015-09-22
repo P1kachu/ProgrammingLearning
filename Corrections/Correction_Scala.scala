@@ -218,68 +218,61 @@ object ScalaCorrection{
   // Create 7 functions for each logic gates (And, Or, No, Nand, Nor, Xnor, Xor).
   // Each function takes two booleans as parameters and returns the result of the logic gate.
   // (or You can do it with a switch and only one function)
-  def LogicGate(left: String, door: Int, right: String): Boolean = {
-    var a = false
-    var b = false
-    if (left == "true") a = true
-    else a = false
-    if (right == "true") b = true
-    else b = false
-    door match {
+  def LogicGate(left:Boolean,right:Boolean,gate:Boolean): Boolean = {
+    gate match {
       case 0 =>
-        return And(a, b)
+        return And(left,right)
       case 1 =>
-        return Or(a, b)
+        return Or(left,right)
       case 2 =>
-        return No(a)
+        return No(left)
       case 3 =>
-        return Nand(a, b)
+        return Nand(left,right)
       case 4 =>
-        return Nor(a, b)
+        return Nor(left,right)
       case 5 =>
-        return Xor(a, b)
+        return Xor(left,right)
       case 6 =>
-        return Xnor(a, b)
+        return Xnor(left,right)
       case x =>
         return false
     }
-  }
+    def And(a: Boolean, b: Boolean): Boolean = {
+      if (a && b) return true
+      else return false
+    }
 
-  def And(a: Boolean, b: Boolean): Boolean = {
-    if (a && b) return true
-    else return false
-  }
+    def Or(a: Boolean, b: Boolean): Boolean = {
+      if (a || b) return true
+      else return false
+    }
 
-  def Or(a: Boolean, b: Boolean): Boolean = {
-    if (a || b) return true
-    else return false
-  }
+    def No(a: Boolean): Boolean = {
+      if (a) return false
+      else return true
+    }
 
-  def No(a: Boolean): Boolean = {
-    if (a) return false
-    else return true
-  }
+    def Nand(a: Boolean, b: Boolean): Boolean = {
+      if (a && b) return false
+      else return true
+    }
 
-  def Nand(a: Boolean, b: Boolean): Boolean = {
-    if (a && b) return false
-    else return true
-  }
+    def Nor(a: Boolean, b: Boolean): Boolean = {
+      if (a && b) return true
+      else return false
+    }
 
-  def Nor(a: Boolean, b: Boolean): Boolean = {
-    if (a && b) return true
-    else return false
-  }
+    def Xor(a: Boolean, b: Boolean): Boolean = {
+      if ((a && b) || (a && b)) return true
+      else return false
+    }
 
-  def Xor(a: Boolean, b: Boolean): Boolean = {
-    if ((a && b) || (a && b)) return true
-    else return false
-  }
+    def Xnor(a: Boolean, b: Boolean): Boolean = {
+      if ((a && b) || (a && b)) return false
+      else return true
+    }
 
-  def Xnor(a: Boolean, b: Boolean): Boolean = {
-    if ((a && b) || (a && b)) return false
-    else return true
   }
-
 
   // FIXME - Reverse
   // Create a function that reverse a string
