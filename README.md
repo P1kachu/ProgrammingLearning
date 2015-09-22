@@ -29,14 +29,33 @@ you were not looking for !
 
 Good luck !    
 
-Exercises sheets:     
-- [Plaintext]
-- [\-\- style] comments
-- [%  style] comments
-- [#  style] comments
-- [;  style] comments
-- [// style] comments
-- [(* style] comments
+Exercises sheets | Level 1 | Level 2 |
+-----------------|---------|---------|
+Plaintext        | [1_Pl]  | [2_Pl]  |
+Double dash      | [1_Dd]  | [2_Dd]  |
+Pourcent         | [1_Pc]  | [2_Pc]  |
+Hashtag          | [1_Ht]  | [2_Ht]  |
+Comma            | [1_Co]  | [2_Co]  |
+Double slash     | [1_Ds]  | [2_Ds]  |
+Parenthesis      | [1_Pa]  | [2_Pa]  |
+
+[1_Pl]: Exercises/Exercises(Plaintext).txt "Text"
+[1_Dd]: Exercises/Exercises(Double-Dash-Style_comments).txt "--"
+[1_Pc]: Exercises/Exercises(Percent-Style_comments).txt "%"
+[1_Ht]: Exercises/Exercises(Hashtag-Style_comments).txt "#"
+[1_Co]: Exercises/Exercises(Semicolon-Style_comments).txt ";"
+[1_Ds]: Exercises/Exercises(Slash-Style_comments).txt "//"
+[1_Pa]: Exercises/Exercises(Parenthesis-Style_comments).txt "(*"
+
+[2_Pl]: Exercises/Advanced_Exercises(Plaintext).txt "Text"
+[2_Dd]: Exercises/Advanced_Exercises(Double-Dash-Style_comments).txt "--"
+[2_Pc]: Exercises/Advanced_Exercises(Percent-Style_comments).txt "%"
+[2_Ht]: Exercises/Advanced_Exercises(Hashtag-Style_comments).txt "#"
+[2_Co]: Exercises/Advanced_Exercises(Semicolon-Style_comments).txt ";"
+[2_Ds]: Exercises/Advanced_Exercises(Slash-Style_comments).txt "//"
+[2_Pa]: Exercises/Advanced_Exercises(Parenthesis-Style_comments).txt "(*"
+
+
 
 
 #Languages currently available
@@ -64,6 +83,7 @@ Thank you
 #Contributors
 - [Lockf0rc] who took care of the PHP Correction.
 - [Nementon] who reviewed and corrected the C# Correction.
+- [ShaidK] who provided the advanced exercices sheets.
 
 Thanks to you !
 
@@ -81,13 +101,6 @@ Thanks to you !
 [Python3]: Corrections/Correction_Python3.py "Python3 Correction"
 [Lolcode]: Corrections/Correction_Lolcode.lol "Lolcode Correction"
 
-[\-\- style]: Exercises/Exercises(Double-Dash-Style_comments).txt "--"
-[%  style]: Exercises/Exercises(Percent-Style_comments).txt "%"
-[#  style]: Exercises/Exercises(Hashtag-Style_comments).txt "#"
-[;  style]: Exercises/Exercises(Semicolon-Style_comments).txt ";"
-[// style]: Exercises/Exercises(Slash-Style_comments).txt "//"
-[(* style]: Exercises/Exercises(Parenthesis-Style_comments).txt "(*"
-[Plaintext]: Exercises/Exercises(Plaintext).txt "Text"
-
 [Lockf0rc]: https://github.com/Lockf0rc
 [Nementon]: https://github.com/Nementon
+[ShaidK]  : https://github.com/ShaidK
