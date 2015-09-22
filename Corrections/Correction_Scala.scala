@@ -102,10 +102,10 @@ object ScalaCorrection{
 
   // FIXME: Functions - One parameter
   // Create a function that takes a string as parameter and returns "Hello (value of string) !"
-  def hello2():String={
-    return "Hello"
+  def hello2(a:String):String={
+    return "Hello "+a
     //or
-    "Hello"
+    "Hello "+a
     //last expression in function is returned
   }
 
