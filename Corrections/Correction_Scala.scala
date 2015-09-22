@@ -5,7 +5,7 @@ import java.util.{Random, Scanner}
 //  ScalaCorrection
 //
 //  Created by Remus32 on 20/09/15.
-//  Copyright (c) 2015 P1kachu. All rights reserved.
+//  Copyright (c) 2015 Remus32. All rights reserved.
 
 object ScalaCorrection{
 
