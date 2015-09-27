@@ -62,13 +62,13 @@ Parenthesis      | [1_Pa]  | [2_Pa]  |
 
 Language |      | Language |      |
 ---------|------|----------|------|
-[C]        | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/c.png" "width="75" height="75"/> | [C#]       | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/cs.png" "width="75" height="75"/>
-[C++]      | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/cpp.png" "width="75" height="75"/> | [Java]     | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/java.png" "width="75" height="75"/>
-[Bash]     | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/bash.png" "width="75" height="75"/> | [Swift]    | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/swift.png" "width="75" height="75"/>
-[Fantom]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/fantom.png" "width="75" height="75"/> | [Golang]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/golang.png" "width="75" height="75"/>
-[Python]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/python.png" "width="75" height="75"/> | [Python3]  |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/python3.png" "width="75" height="75"/>
-[Lolcode]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/lolcode.png" "width="75" height="75"/> | [Ocaml (WIP)]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/ocaml.png" "width="75" height="75"/> |
-[PHP]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/php.png" "width="75" height="75"/> | [Scala]       |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/scala.png" "width="75" height="75"/>
+[C]        | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/c.png" "width="75" height="75"/> | [C#]       | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/cs.png" "width="75" height="75"/>
+[C++]      | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/cpp.png" "width="75" height="75"/> | [Java]     | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/java.png" "width="75" height="75"/>
+[Bash]     | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/bash.png" "width="75" height="75"/> | [Swift]    | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/swift.png" "width="75" height="75"/>
+[Fantom]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/fantom.png" "width="75" height="75"/> | [Golang]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/golang.png" "width="75" height="75"/>
+[Python]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/python.png" "width="75" height="75"/> | [Python3]  |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/python3.png" "width="75" height="75"/>
+[Lolcode]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/lolcode.png" "width="75" height="75"/> | [Ocaml (WIP)]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/ocaml.png" "width="75" height="75"/> |
+[PHP]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/php.png" "width="75" height="75"/> | [Scala]       |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/scala.png" "width="75" height="75"/>
 
 #Contributors
 - [Lockf0rc] who took care of the PHP Correction.
@@ -81,7 +81,7 @@ Thanks to you !
 #Notes
 - The Swift correction was created at the time where XCode was in version 6b5. The language has evolved since and thus the correction may not be 100% accurate.
 
-###TODO
+####TODO
 - OCaml correction is half finished only.
 - Update Swift correction so that it matches the latest version of the
 Language (see #notes).
