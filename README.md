@@ -68,7 +68,7 @@ Language |      | Language |      |
 [Fantom]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/fantom.png" "width="75" height="75"/> | [Golang]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/golang.png" "width="75" height="75"/> 
 [Python]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/python.png" "width="75" height="75"/> | [Python3]  |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/python3.png" "width="75" height="75"/> 
 [Lolcode]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/lolcode.png" "width="75" height="75"/> | [Ocaml (WIP)]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/ocaml.png" "width="75" height="75"/> |
-[PHP]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/php.png" "width="75" height="75"/> | 
+[PHP]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/php.png" "width="75" height="75"/> | [Scala]       |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/scala.png" "width="75" height="75"/>
 
 #Notes
 - The Swift correction was created at the time where XCode was in version 6b5. The language has evolved since and thus the correction may not be 100% accurate.
@@ -100,6 +100,7 @@ Thanks to you !
 [Python]: Corrections/Correction_Python.py "Python Correction"
 [Python3]: Corrections/Correction_Python3.py "Python3 Correction"
 [Lolcode]: Corrections/Correction_Lolcode.lol "Lolcode Correction"
+[Scala]: Corrections/Correction_Scala.scala "Scala Correction"
 
 [Lockf0rc]: https://github.com/Lockf0rc
 [Nementon]: https://github.com/Nementon
