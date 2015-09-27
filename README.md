@@ -70,7 +70,15 @@ Language |      | Language |      |
 [Lolcode]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/lolcode.png" "width="75" height="75"/> | [Ocaml (WIP)]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/ocaml.png" "width="75" height="75"/> |
 [PHP]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/php.png" "width="75" height="75"/> | [Scala]       |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/scala.png" "width="75" height="75"/>
 
-###Notes
+#Contributors
+- [Lockf0rc] who took care of the PHP Correction.
+- [Nementon] who reviewed and corrected the C# Correction.
+- [ShaidK] who provided the advanced exercices sheets.
+- [remus32] who provided the Scala correction.
+
+Thanks to you !
+
+#Notes
 - The Swift correction was created at the time where XCode was in version 6b5. The language has evolved since and thus the correction may not be 100% accurate.
 
 ###TODO
@@ -80,13 +88,19 @@ Language (see #notes).
 - C# and C++ are missing some exercices from part 2 (exercices added
 after the correction's latest update).
 
-#Contributors
-- [Lockf0rc] who took care of the PHP Correction.
-- [Nementon] who reviewed and corrected the C# Correction.
-- [ShaidK] who provided the advanced exercices sheets.
-- [remus32] who provided the Scala correction.
 
-Thanks to you !
+
+
+
+
+
+
+
+
+
+
+
+
 
 [C]: Corrections/Correction_C.c "C Correction"
 [C#]: Corrections/Correction_C%23.cs "C# Correction"
