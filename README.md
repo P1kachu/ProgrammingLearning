@@ -75,6 +75,7 @@ Language |      | Language |      |
 - [Nementon] who reviewed and corrected the C# Correction.
 - [ShaidK] who provided the advanced exercices sheets.
 - [remus32] who provided the Scala correction.
+- [klauspost] who review the Go corrections.
 
 Thanks to you !
 
@@ -121,3 +122,4 @@ after the correction's latest update).
 [Nementon]: https://github.com/Nementon
 [ShaidK]: https://github.com/ShaidK
 [remus32]: https://github.com/remus32
+[klauspost]: https://github.com/klauspost
