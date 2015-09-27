@@ -75,7 +75,10 @@ Language |      | Language |      |
 
 ###TODO
 - OCaml correction is half finished only.
-
+- Update Swift correction so that it matches the latest version of the
+Language.
+- C# and C++ are missing some exercices from part 2 (exercices added
+after the correction's latest update).
 
 ###Disclaimer
 These exercises and corrections are not here to teach how to code in a clean way.
