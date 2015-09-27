@@ -1,7 +1,7 @@
 import java.util.{Random, Scanner}
 
 //
-//  ScalaCorrection.java
+//  Correcion_Scala.scala
 //  ScalaCorrection
 //
 //  Created by Remus32 on 20/09/15.
