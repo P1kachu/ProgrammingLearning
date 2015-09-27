@@ -70,14 +70,14 @@ Language |      | Language |      |
 [Lolcode]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/lolcode.png" "width="75" height="75"/> | [Ocaml (WIP)]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/ocaml.png" "width="75" height="75"/> |
 [PHP]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/php.png" "width="75" height="75"/> | [Scala]       |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/scala.png" "width="75" height="75"/>
 
-##Notes
+###Notes
 - The Swift correction was created at the time where XCode was in version 6b5. The language has evolved since and thus the correction may not be 100% accurate.
 
-##TODO
+###TODO
 - OCaml correction is half finished only.
 
 
-##Disclaimer
+###Disclaimer
 These exercises and corrections are not here to teach how to code in a clean way.
 They are just here to teach the fundamentals of programming in different languages, and thus different syntaxes.
 Code factorisation, splitting into different files, or coding style for example are not resepcted due to the fact that they are not the goal here and would decrease readability (especially splitting into files).
