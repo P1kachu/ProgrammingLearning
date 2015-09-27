@@ -1,17 +1,17 @@
 ProgrammingLearning
 ===================
 
-#What is it ?    
-"I like it. Simple. Easy to remember."    
+#What is it ?
+"I like it. Simple. Easy to remember."
 
-When I want to learn a new language, I tend to rewrite the same usual basic stuff everytime, to get used to the syntax.  ProgrammingLearning is an attempt to be a standalone exercise sheet that would provide the required knowledge in any programming language to get a good start.     
+When I want to learn a new language, I tend to rewrite the same usual basic stuff everytime, to get used to the syntax.  ProgrammingLearning is an attempt to be a standalone exercise sheet that would provide the required knowledge in any programming language to get a good start.
 
 
 ####You want to learn a new language ?
-Then take the exercise sheet, and code. Look for answers on StackOverflow, ask questions, and if you really are stuck, check if the correction is available in your language.     
+Then take the exercise sheet, and code. Look for answers on StackOverflow, ask questions, and if you really are stuck, check if the correction is available in your language.
 
 ####You know a programming language that has not been corrected yet ?
-Then feel free to do a merge request and share your knowledge with everyone. Share it with your fellows too, more reviewers and corrections equals more programmers ! 
+Then feel free to do a merge request and share your knowledge with everyone. Share it with your fellows too, more reviewers and corrections equals more programmers !
 
 
 ####How does it work ?
@@ -27,7 +27,7 @@ Tutorials are available all around the internet, but searching by yourself helps
 you were not looking for !
 
 
-Good luck !    
+Good luck !
 
 Exercises sheets | Level 1 | Level 2 |
 -----------------|---------|---------|
@@ -62,11 +62,11 @@ Parenthesis      | [1_Pa]  | [2_Pa]  |
 
 Language |      | Language |      |
 ---------|------|----------|------|
-[C]        | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/c.png" "width="75" height="75"/> | [C#]       | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/cs.png" "width="75" height="75"/> 
-[C++]      | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/cpp.png" "width="75" height="75"/> | [Java]     | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/java.png" "width="75" height="75"/> 
-[Bash]     | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/bash.png" "width="75" height="75"/> | [Swift]    | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/swift.png" "width="75" height="75"/> 
-[Fantom]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/fantom.png" "width="75" height="75"/> | [Golang]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/golang.png" "width="75" height="75"/> 
-[Python]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/python.png" "width="75" height="75"/> | [Python3]  |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/python3.png" "width="75" height="75"/> 
+[C]        | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/c.png" "width="75" height="75"/> | [C#]       | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/cs.png" "width="75" height="75"/>
+[C++]      | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/cpp.png" "width="75" height="75"/> | [Java]     | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/java.png" "width="75" height="75"/>
+[Bash]     | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/bash.png" "width="75" height="75"/> | [Swift]    | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/swift.png" "width="75" height="75"/>
+[Fantom]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/fantom.png" "width="75" height="75"/> | [Golang]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/golang.png" "width="75" height="75"/>
+[Python]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/python.png" "width="75" height="75"/> | [Python3]  |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/python3.png" "width="75" height="75"/>
 [Lolcode]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/lolcode.png" "width="75" height="75"/> | [Ocaml (WIP)]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/ocaml.png" "width="75" height="75"/> |
 [PHP]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/php.png" "width="75" height="75"/> | [Scala]       |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/scala.png" "width="75" height="75"/>
 
@@ -77,13 +77,14 @@ Language |      | Language |      |
 These exercises and corrections are not here to teach how to code in a clean way.
 They are just here to teach the fundamentals of programming in different languages, and thus different syntaxes.
 Code factorisation, splitting into different files, or coding style for example are not resepcted due to the fact that they are not the goal here and would decrease readability (especially splitting into files).
-They are to be used as cheat sheets with quick access, not example of perfect code (thanksfully).  
+They are to be used as cheat sheets with quick access, not example of perfect code (thanksfully).
 Thank you
 
 #Contributors
 - [Lockf0rc] who took care of the PHP Correction.
 - [Nementon] who reviewed and corrected the C# Correction.
 - [ShaidK] who provided the advanced exercices sheets.
+- [remus32] who provided the Scala correction.
 
 Thanks to you !
 
@@ -105,3 +106,4 @@ Thanks to you !
 [Lockf0rc]: https://github.com/Lockf0rc
 [Nementon]: https://github.com/Nementon
 [ShaidK]: https://github.com/ShaidK
+[remus32]: https://github.com/remus32
