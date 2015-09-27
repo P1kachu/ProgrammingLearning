@@ -84,7 +84,7 @@ Thanks to you !
 ####TODO
 - OCaml correction is half finished only.
 - Update Swift correction so that it matches the latest version of the
-Language (see #notes).
+Language (see [Notes](README.md#notes)).
 - C# and C++ are missing some exercices from part 2 (exercices added
 after the correction's latest update).
 
