@@ -76,6 +76,7 @@ Language |      | Language |      |
 - [ShaidK] who provided the advanced exercices sheets.
 - [remus32] who provided the Scala correction.
 - [klauspost] who reviewed the Go corrections.
+- [rbobillo] who reviewed and corrected the Scala correction.
 
 Thanks to you !
 
@@ -123,3 +124,4 @@ after the correction's latest update).
 [ShaidK]: https://github.com/ShaidK
 [remus32]: https://github.com/remus32
 [klauspost]: https://github.com/klauspost
+[rbobillo]: https://github.com/rbobillo
