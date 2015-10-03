@@ -120,7 +120,7 @@ after the correction's latest update).
 [Python3]: Corrections/Correction_Python3.py "Python3 Correction"
 [Lolcode]: Corrections/Correction_Lolcode.lol "Lolcode Correction"
 [Scala]: Corrections/Correction_Scala.scala "Scala Correction"
-[Rust]: Corrections/Corrections_Rust.rs "Rust Correction"
+[Rust]: Corrections/Correction_Rust.rs "Rust Correction"
 
 [Lockf0rc]: https://github.com/Lockf0rc
 [Nementon]: https://github.com/Nementon
