@@ -297,18 +297,17 @@ fn adv_questions() {
 	//         {  5,  6,  0,  8 } 
 	//         {  0,  0,  0,  0 } 
 	//         { 12, 13,  0, 15 } 
-
-	let mut array = [[1,   2,  3,  4],
-	                 [5,   6,  7,  8],
-	                 [9,  10,  0, 11],
-	                 [12, 13, 14, 15]];
-	for i in 0.. array.len() {
-		println!("{:?}", array[i]);	
-	}	
+	
+	let mut array = vec![vec![1,   2,  3,  4],
+			     vec![5,   6,  7,  8],
+			     vec![9,  10,  0, 11],
+			     vec![12, 13, 14, 15]];
 	find_replace_0(&mut array);
-	for i in 0.. array.len() {
-		println!("{:?}", array[i]);	
-	}
+
+	array = vec![vec![1,2,4],
+				 vec![1,0,4],
+				 vec![1,2,4]];  
+	find_replace_0(&mut array);
 
 	// HackerRank Data Structure & Algorithm Questions 
 	// You are given an array of integers of size N . You need to print  
@@ -350,7 +349,10 @@ fn adds_up_to_12(arr: &[i32]) -> bool {
 	false
 }
 
-fn find_replace_0(arr: &mut [[i32]]) {
+fn find_replace_0(arr: &mut Vec<Vec<i32>>) {
+	for i in 0.. arr.len() {
+		println!("{:?}", arr[i]);   
+	}
 	let mut x: usize = 0;
 	let mut y: usize = 0;
 	for i in 0..arr.len() {
@@ -362,9 +364,14 @@ fn find_replace_0(arr: &mut [[i32]]) {
 		}
 	}
 	for i in 0..arr.len() {
-		arr[i][y] = 0;
-		arr[x][i] = 0;
-	}	
+		arr[i][x] = 0;
+	}   
+	for i in 0..arr[y].len() {
+		arr[y][i] = 0;
+	}   
+	for i in 0.. arr.len() {
+		println!("{:?}", arr[i]);   
+	}   
 }
 
 fn print_stairs(h: usize) {	
