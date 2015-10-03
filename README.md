@@ -78,7 +78,7 @@ Language |      | Language |      |
 - [remus32] who provided the Scala correction.
 - [klauspost] who reviewed the Go corrections.
 - [rbobillo] who reviewed and corrected the Scala correction.
-- [Tandrial] who proved the Rust corrections.
+- [Tandrial] who provided the Rust correction.
 
 Thanks to you !
 
