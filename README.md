@@ -69,6 +69,7 @@ Language |      | Language |      |
 [Python]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/python.png" "width="75" height="75"/> | [Python3]  |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/python3.png" "width="75" height="75"/>
 [Lolcode]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/lolcode.png" "width="75" height="75"/> | [Ocaml (WIP)]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/ocaml.png" "width="75" height="75"/> |
 [PHP]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/php.png" "width="75" height="75"/> | [Scala]       |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/scala.png" "width="75" height="75"/>
+[Rust]  | <img src="https://www.rust-lang.org/logos/rust-logo-blk.svg" "width="75" height="75"/> |      | 
 
 #Contributors
 - [Lockf0rc] who took care of the PHP Correction.
@@ -77,6 +78,7 @@ Language |      | Language |      |
 - [remus32] who provided the Scala correction.
 - [klauspost] who reviewed the Go corrections.
 - [rbobillo] who reviewed and corrected the Scala correction.
+- [Tandrial] who proved the Rust corrections.
 
 Thanks to you !
 
@@ -118,6 +120,7 @@ after the correction's latest update).
 [Python3]: Corrections/Correction_Python3.py "Python3 Correction"
 [Lolcode]: Corrections/Correction_Lolcode.lol "Lolcode Correction"
 [Scala]: Corrections/Correction_Scala.scala "Scala Correction"
+[Rust]: Corrections/Corrections_Rust.rs "Rust Correction"
 
 [Lockf0rc]: https://github.com/Lockf0rc
 [Nementon]: https://github.com/Nementon
@@ -125,3 +128,4 @@ after the correction's latest update).
 [remus32]: https://github.com/remus32
 [klauspost]: https://github.com/klauspost
 [rbobillo]: https://github.com/rbobillo
+[Tandrial]: https://github.com/Tandrial
