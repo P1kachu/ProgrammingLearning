@@ -84,19 +84,19 @@ class JavaCorrection
         // Create a function that returns nothing and which doesn't takes any parameter. It should just be named "TriForce"
         // and print the TriForce symbol (one triangle over two other ones, can be found on internet) with "TRIFORCE"
         // Don't forget to call the function !
-        TriForce();
+        triForce();
 
         // FIXME: Functions - One parameter
         // Create a function that takes a string as parameter and returns "Hello (value of string) !"
-        System.out.println(Hello("Luke"));
+        System.out.println(hello("Luke"));
 
         // FIXME: Functions - Multiple parameters
         // Create a function that takes two integers as parameters and returns the addition of these two.
         // You can do the same with multiplication, subtraction and division.
-        System.out.println(Addition(18,24));
-        System.out.println(Division(336,8));
-        System.out.println(Multiplication(21,2));
-        System.out.println(Subtraction(44,2));
+        System.out.println(addition(18,24));
+        System.out.println(division(336,8));
+        System.out.println(multiplication(21,2));
+        System.out.println(subtraction(44,2));
 
         // FIXME: User input
         // Create a string variable that takes what the user enters in the console as value. Then print "You entered (value of string)"
@@ -181,7 +181,7 @@ class JavaCorrection
         // Create 7 functions for each logic gates (And, Or, No, Nand, Nor, Xnor, Xor).
         // Each function takes two booleaneans as parameters and returns the result of the logic gate.
         // (or You can do it with a switch and only one function)
-        System.out.println(LogicGate("true",0,"false"));
+        System.out.println(logicGate("true",0,"false"));
 
         // FIXME - Reverse
         // Create a function that reverse a string
@@ -190,7 +190,7 @@ class JavaCorrection
 
         //Functions Declarations
 
-        static void TriForce()
+        static void triForce()
         {
             System.out.println("   /\\  ");
             System.out.println("  /__\\ ");
@@ -199,26 +199,26 @@ class JavaCorrection
             System.out.println("TRIFORCE");
         }
 
-        static String Hello(String name)
+        static String hello(String name)
         {
             return "Hello " + name + " !\n";
         }
-        static int Addition(int a, int b)
+        static int addition(int a, int b)
         {
             return a + b;
         }
 
-        static int Subtraction(int a, int b)
+        static int subtraction(int a, int b)
         {
             return a - b;
         }
 
-        static int Multiplication(int a, int b)
+        static int multiplication(int a, int b)
         {
             return a * b;
         }
 
-        static int Division(int a, int b)
+        static int division(int a, int b)
         {
             return a / b;
         }
@@ -238,7 +238,7 @@ class JavaCorrection
             return randomNum;
         }
 
-        static boolean LogicGate(String left, int door, String right)
+        static boolean logicGate(String left, int door, String right)
         {
             boolean a;
             boolean b;
@@ -255,19 +255,19 @@ class JavaCorrection
             switch (door)
             {
                 case 0:
-                    return And(a, b);
+                    return and(a, b);
                 case 1:
-                    return Or(a, b);
+                    return or(a, b);
                 case 2:
-                    return No(a);
+                    return no(a);
                 case 3:
-                    return Nand(a, b);
+                    return nand(a, b);
                 case 4:
-                    return Nor(a, b);
+                    return nor(a, b);
                 case 5:
-                    return Xor(a, b);
+                    return xor(a, b);
                 case 6:
-                    return Xnor(a, b);
+                    return xnor(a, b);
 
 
                 default:
@@ -275,7 +275,7 @@ class JavaCorrection
             }
         }
 
-        static boolean And(boolean a, boolean b)
+        static boolean and(boolean a, boolean b)
         {
             if (a && b)
                 return true
@@ -285,7 +285,7 @@ class JavaCorrection
         }
 
 
-        static boolean Or(boolean a, boolean b)
+        static boolean or(boolean a, boolean b)
         {
             if (a || b)
                 return true
@@ -295,7 +295,7 @@ class JavaCorrection
         }
 
 
-        static boolean No(boolean a)
+        static boolean no(boolean a)
         {
             if (a)
                 return false
@@ -305,7 +305,7 @@ class JavaCorrection
         }
 
 
-        static boolean Nand(boolean a, boolean b)
+        static boolean nand(boolean a, boolean b)
         {
             if (a && b)
                 return false
@@ -315,7 +315,7 @@ class JavaCorrection
         }
 
 
-        static boolean Nor(boolean a, boolean b)
+        static boolean nor(boolean a, boolean b)
         {
             if (a && b)
                 return true
@@ -324,7 +324,7 @@ class JavaCorrection
             // return !(a || b)
         }
 
-        static boolean Xor(boolean a, boolean b)
+        static boolean xor(boolean a, boolean b)
         {
             if ((a && b) || (a && b))
                 return true
@@ -333,7 +333,7 @@ class JavaCorrection
             // return ((a && b) || (a && b))
         }
 
-        static boolean Xnor(boolean a, boolean b)
+        static boolean xnor(boolean a, boolean b)
         {
             if ((a && b) || (a && b))
                 return false
