@@ -79,6 +79,7 @@ Language |      | Language |      |
 - [klauspost] who reviewed the Go corrections.
 - [rbobillo] who reviewed and corrected the Scala correction.
 - [Tandrial] who provided the Rust correction.
+- [Thommath] who corrected the Java correction.
 
 Thanks to you !
 
