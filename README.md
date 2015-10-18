@@ -69,7 +69,7 @@ Language |      | Language |      |
 [Python]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/python.png" "width="75" height="75"/> | [Python3]  |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/python3.png" "width="75" height="75"/>
 [Lolcode]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/lolcode.png" "width="75" height="75"/> | [Ocaml (WIP)]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/ocaml.png" "width="75" height="75"/> |
 [PHP]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/php.png" "width="75" height="75"/> | [Scala]       |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/scala.png" "width="75" height="75"/>
-[Rust]  | <img src="https://www.rust-lang.org/logos/rust-logo-blk.svg" "width="75" height="75"/> |      | 
+[Rust]  | <img src="https://www.rust-lang.org/logos/rust-logo-blk.svg" "width="75" height="75"/> |      |
 
 #Contributors
 - [Lockf0rc] who took care of the PHP Correction.
@@ -130,3 +130,4 @@ after the correction's latest update).
 [klauspost]: https://github.com/klauspost
 [rbobillo]: https://github.com/rbobillo
 [Tandrial]: https://github.com/Tandrial
+[Thommath]: https://github.com/Thommath
