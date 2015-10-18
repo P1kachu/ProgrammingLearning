@@ -38,29 +38,31 @@ class JavaCorrection
 
         // FIXME: For-loop - Integer
         // Create a simple for-loop for an integer "i" going from 1 to 10 that prints the value of "i"
-        for (int i = 1; i < 11; i++)
+        for (int i = 1; i < 11; i++){
             System.out.println(i);
+        }
 
         // FIXME: For-loop - shoppingList
         // Create a for loop that iterate through "shoppingList" and prints each element.
-        for (int i = 0; i < nbOfElts; i++)
+        for (int i = 0; i < nbOfElts; i++){
             System.out.println(shoppingList[i]);
-
+        }
 
         // FIXME: Foreach-loop
         // Do the same with a foreach-loop.
-        for (String item : shoppingList)
+        for (String item : shoppingList){
             System.out.println(item);
+        }
 
         // FIXME: If-statement
         // Modify the first for-loop (with i from 1 to 10) such that it prints "(value of i) is even" when "i" is divisible
         // by 2 (You may want to learn more about "modulo" (%)). Else, print "(value of i) is odd".
-        for (int i = 1; i < 11; i++)
-        {
-            if(i % 2 == 0)
+        for (int i = 1; i < 11; i++){
+            if(i % 2 == 0){
                 System.out.println(i + " is even");
-            else
+            } else {
                 System.out.println(i + " is odd");
+            }
         }
         // FIXME: Sum Up
         // Create a string variable called "element" with the value of your choice. Then create a for-loop that checks if "shoppingList" contains
@@ -68,14 +70,16 @@ class JavaCorrection
         // If not, print "Nope, you don't need (value of "element")".
         String element = "Pi";
         int tmp = 0;
-        for (int i = 0; i < nbOfElts; i++)
-            if (shoppingList[i].equals(element))
+        for (int i = 0; i < nbOfElts; i++){
+            if (shoppingList[i].equals(element)){
                 tmp = 1;
-        if (tmp)
+            }
+        }
+        if (tmp){
             System.out.println("You have to buy " + element + " !");
-        else
+        } else {
             System.out.println("Nope, you don't need " + element);
-
+        }
 
         // Part Two:
 
@@ -107,8 +111,7 @@ class JavaCorrection
         // FIXME: While loop
         // Create a while loop that takes a number and divides it by 2 until it is less than 3
         int nb= 100;
-        while(nb >= 3)
-        {
+        while(nb >= 3){
             System.out.println(nb);
             nb /= 2;
         }
@@ -116,8 +119,7 @@ class JavaCorrection
         // FIXME: do-While loop
         // Do the same with a do-while loop
         nb = 100;
-        do
-        {
+        do{
             System.out.println(nb);
             nb /= 2;
         }while(nb >= 3);
@@ -140,16 +142,17 @@ class JavaCorrection
         // {x7,x8,x9,}
         int size = 3;
         int[][] array = new int[size][size];
-        for (int i = 0; i < size; i++)
-            for (int j = 0; j < size; j++)
+        for (int i = 0; i < size; i++){
+            for (int j = 0; j < size; j++){
                 array[i][j] = randIntBounds(0,9);
+            }
+        }
 
-
-        for (int i = 0; i < size; i++)
-        {
+        for (int i = 0; i < size; i++){
             System.out.print("{");
-            for (int j = 0; j < size; j++)
+            for (int j = 0; j < size; j++){
                 System.out.print(array[i][j] + ",");
+            }
             System.out.println("}");
         }
 
@@ -158,21 +161,17 @@ class JavaCorrection
         // (Create 3 statements for 3 specific values and a default one)
         int a = Integer.parseInt(user_input.next());
 
-        switch(a)
-        {
-            case 1 :
+        switch(a){
+        case 1:
             System.out.println("a = 1");
             break;
-
-            case 2 :
+        case 2:
             System.out.println("a = 2");
             break;
-
-            case 3 :
+        case 3:
             System.out.println("a = 3");
             break;
-
-            default :
+        default:
             System.out.println("a != 1/2/3\n");
             break;
         }
@@ -190,8 +189,7 @@ class JavaCorrection
 
         //Functions Declarations
 
-        static void triForce()
-        {
+        static void triForce(){
             System.out.println("   /\\  ");
             System.out.println("  /__\\ ");
             System.out.println(" /\\  /\\  ");
@@ -199,47 +197,39 @@ class JavaCorrection
             System.out.println("TRIFORCE");
         }
 
-        static String hello(String name)
-        {
+        static String hello(String name){
             return "Hello " + name + " !\n";
         }
-        static int addition(int a, int b)
-        {
+        static int addition(int a, int b){
             return a + b;
         }
 
-        static int subtraction(int a, int b)
-        {
+        static int subtraction(int a, int b){
             return a - b;
         }
 
-        static int multiplication(int a, int b)
-        {
+        static int multiplication(int a, int b){
             return a * b;
         }
 
-        static int division(int a, int b)
-        {
+        static int division(int a, int b){
             return a / b;
         }
 
 
-        public static int randInt()
-        {
+        public static int randInt(){
             Random rand = new Random();
             int randomNum = rand.nextInt(Integer.MAX_VALUE);
             return randomNum;
         }
 
-        public static int randIntBounds(int min, int max)
-        {
+        public static int randIntBounds(int min, int max){
             Random rand = new Random();
             int randomNum = rand.nextInt((max - min) + 1) + min;
             return randomNum;
         }
 
-        static boolean logicGate(String left, int door, String right)
-        {
+        static boolean logicGate(String left, int door, String right){
             boolean a;
             boolean b;
 
@@ -252,31 +242,27 @@ class JavaCorrection
             else b = false;
 
 
-            switch (door)
-            {
-                case 0:
-                    return and(a, b);
-                case 1:
-                    return or(a, b);
-                case 2:
-                    return no(a);
-                case 3:
-                    return nand(a, b);
-                case 4:
-                    return nor(a, b);
-                case 5:
-                    return xor(a, b);
-                case 6:
-                    return xnor(a, b);
-
-
-                default:
+            switch (door){
+            case 0:
+                return and(a, b);
+            case 1:
+                return or(a, b);
+            case 2:
+                return no(a);
+            case 3:
+                return nand(a, b);
+            case 4:
+                return nor(a, b);
+            case 5:
+                return xor(a, b);
+            case 6:
+                return xnor(a, b);
+            default:
                 return false;
             }
         }
 
-        static boolean and(boolean a, boolean b)
-        {
+        static boolean and(boolean a, boolean b){
             if (a && b)
                 return true
             else
@@ -285,8 +271,7 @@ class JavaCorrection
         }
 
 
-        static boolean or(boolean a, boolean b)
-        {
+        static boolean or(boolean a, boolean b){
             if (a || b)
                 return true
             else
@@ -295,8 +280,7 @@ class JavaCorrection
         }
 
 
-        static boolean no(boolean a)
-        {
+        static boolean no(boolean a){
             if (a)
                 return false
             else
@@ -305,8 +289,7 @@ class JavaCorrection
         }
 
 
-        static boolean nand(boolean a, boolean b)
-        {
+        static boolean nand(boolean a, boolean b){
             if (a && b)
                 return false
             else
@@ -315,8 +298,7 @@ class JavaCorrection
         }
 
 
-        static boolean nor(boolean a, boolean b)
-        {
+        static boolean nor(boolean a, boolean b){
             if (a && b)
                 return true
             else
@@ -324,8 +306,7 @@ class JavaCorrection
             // return !(a || b)
         }
 
-        static boolean xor(boolean a, boolean b)
-        {
+        static boolean xor(boolean a, boolean b){
             if ((a && b) || (a && b))
                 return true
             else
@@ -333,8 +314,7 @@ class JavaCorrection
             // return ((a && b) || (a && b))
         }
 
-        static boolean xnor(boolean a, boolean b)
-        {
+        static boolean xnor(boolean a, boolean b){
             if ((a && b) || (a && b))
                 return false
             else
@@ -342,8 +322,7 @@ class JavaCorrection
             // return !((a && b) || (a && b))
         }
 
-        static String reverseString(String str)
-        {
+        static String reverseString(String str){
             char[] array = str.toCharArray();
             String stringy = "";
             for (int i = str.length() - 1; i >= 0; i--)
