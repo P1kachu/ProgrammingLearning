@@ -84,7 +84,7 @@ Language |      | Language |      |
 Thanks to you !
 
 #Notes
-- When editing an existing corrections, please take care not to
+- When editing an existing correction, please take care not to
 **break** it. Verify that it still works the same way it did before.
 - The Swift correction was created at the time where XCode was in
 version 6b5. The language has evolved since and thus the correction
