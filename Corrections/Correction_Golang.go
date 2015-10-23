@@ -1,8 +1,14 @@
+//
 // GoCorrection.go
 // GoCorrection
-
+//
 // Created by P1kachu on 15/04/15.
 // Copyright (c) 2015 P1kachu. All rights reserved.
+//
+//  Reviewed by:
+//      - klauspost
+//      - (null)
+//
 
 package main
 

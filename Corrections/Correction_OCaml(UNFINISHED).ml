@@ -1,23 +1,13 @@
-(*   How to practice a language ! *)
-
-(*   Here are some exercises to help you improving your skills in any programming language.
- *   The purpose of this exercise sheet is to allow anybody learning a new language to practise. Exercises are ordered by difficulty.
- *   The exercises are taken from practical session of EPITA's first year.
- *   Document will be updated with new exercises and corrections are available for some languages.
- *   Since I am far from knowing every programming language, some exercise may not be as easy as they could be.
- *   Feel free to send me corrections for languages that are not available yet,
- *   new exercises ideas or any mistakes that I could have made !
- *   Nothing will be clearly explained, you will just have exercises and corrections.
- *   You need to look for answers on the internet (stackoverflow.com is good for example) and search by yourself.
- *   Tutorials are available all around the internet, but searching by yourself helps you learning about things
- *   you were not looking for !
- *   Good luck :)
-
- *   Create a new project for the language you want to learn and add this file with the 
- *   right extension (.c for c, .cpp for C++, .cs for C# , etc.) regarding the language.
- *   You will need to add the corresponding headers/library/etc.
-*)
-
+(*
+ *  Correction_Ocaml.ml
+ *  Correction_Ocaml
+ *
+ *  Created by P1kachu on UNFINISHED
+ *  Copyright (c) 2015 P1kachu. All rights reserved.
+ *
+ *  Reviewed by:
+ *      - No one yet.
+ *)
 
 
 (*  Part One:  *)
@@ -27,13 +17,13 @@
  *  Declare two variables: an integer named "age", and a string named "name" with corresponding values (your name and age)
 *)
 let age = 20;;
-let name = "P1kachu";; 
+let name = "P1kachu";;
 
 (*  FIXME: Print
  *  Print the following sentence in the console "You are NAME and you are AGE years old !". Don't forget to add a newline at the end
 *)
 print_endline ("You are " ^ name ^ " and you are " ^ (string_of_int age) ^ " years old !");;
- 
+
 (*  FiXME: Concatenation
  *  Create a new string variable called "hello" which value is "Hello ". Add "name" at the end of "hello" (Concatenation) then print it
 *)
@@ -59,7 +49,7 @@ done;;
  *  Create a for loop that iterate through "shoppingList" and prints each element.
 *)
 for i = 0 to array_size - 1 do (print_endline (shoppingList.(i))) done;;
- 
+
 (*  FIXME: Foreach-loop
  *  Do the same with a foreach-loop.
 *)
@@ -73,9 +63,9 @@ for i = 1 to 10 do
     if i mod 2 = 0 then (print_endline ((string_of_int i) ^ " is even"))
     else (print_endline ((string_of_int i) ^ " is odd"))
 done;;
- 
+
 (*  FIXME: Sum Up
- *  Create a string variable called "element" with the value of your choice. Then create a for-loop that checks if "shoppingList" contains 
+ *  Create a string variable called "element" with the value of your choice. Then create a for-loop that checks if "shoppingList" contains
  *  "element". If yes, print "You have to buy (value of element) !", and stop the loop (search how to stop a loop).
  *  If not, print "Nope, you don't need (value of "element")".
 *)
@@ -93,7 +83,7 @@ done;;
  *  and print the TriForce symbol (one triangle over two other ones, can be found on internet) with "TRIFORCE"
  *  Don't forget to call the function !
 *)
-let triforce () = 
+let triforce () =
     print_endline "   /\\  ";
     print_endline "  /__\\ ";
     print_endline " /\\  /\\  ";
@@ -105,7 +95,7 @@ triforce ();;
 (*  FIXME: Functions - One parameter
  *  Create a function that takes a string as parameter and returns "Hello (value of string) !"
 *)
-let hello_function str = 
+let hello_function str =
     print_endline ("Hello " ^ str ^ " !");;
 hello_function "my friend";;
 
@@ -123,7 +113,7 @@ let multiplication int1 int2 = int1 * int2;;
 p_int (multiplication 2 21)
 let division int1 int2 = int1 / int2;;
 p_int (division 84 2)
- 
+
 (*  FIXME: User entry
  *  Create a string variable that takes what the user enter in the console as value. Then print "You entered (value of string)"
 *)
@@ -141,15 +131,15 @@ done;;
 (*  FIXME: do-While loop
  *  Do the same with a do-while loop
 *)
- 
+
 (*  FIXME: Random generator
  *  Create a function that returns a random number
 *)
- 
+
 (*  FIXME: Random generator with bounds
  *  Create another function that returns a random number between two bounds given as parameters.
 *)
- 
+
 (*  FIXME: Multidimensional array
  *  Create a two dimensional int array of 3 columns and 3 rows. Use 2 for-loops to add a random number
  *  between 1 and 9 in each of the 9 rooms.
@@ -159,20 +149,19 @@ done;;
  *  {x4,x5,x6,}
  *  {x7,x8,x9,}
 *)
- 
+
 
 (*  FIXME: Switch
  *  Create a Switch that takes an integer "a" and return a sentence regarding the value of a
  *  (Create 3 statements for 3 specific values and a default one)
 *)
- 
+
 (*  FIXME: logic Gates
  *  Create 7 functions for each logic gates (And, Or, No, Nand, Nor, Xnor, Xor).
  *  Each function takes two booleans as parameters and returns the result of the logic gate.
  *  (or You can do it with a switch and only one function)
 *)
- 
+
 (*  FIXME - Reverse
  *  Create a function that reverse a string
 *)
- 

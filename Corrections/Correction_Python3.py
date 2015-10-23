@@ -4,6 +4,11 @@
 #
 #  Created by P1kachu on 10/08/15.
 #  Copyright (c) 2015 P1kachu. All rights reserved.
+#
+#  Reviewed by:
+#      - No one yet.
+#
+
 import random
 import sys
 
@@ -212,7 +217,7 @@ switch[a]()
 #   Create 7 functions for each logic gates (And, Or, No, Nand, Nor, Xnor, Xor).
 #   Each function takes two booleans (or 0 and 1) as parameters and returns the result of the logic gate.
 #   (or You can do it with a switch and only one function)
-#   Logic gates are already well represented in python. so here are (strange) versions with numbers... 
+#   Logic gates are already well represented in python. so here are (strange) versions with numbers...
 
 def And(nb1, nb2):
     return 1 if nb1*nb2 else 0

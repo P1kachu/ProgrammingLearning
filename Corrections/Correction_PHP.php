@@ -4,18 +4,21 @@
 //
 //  Created by Lockf0rc on 10/09/15.
 //  Copyright (c) 2015 Lockf0rc. All rights reserved.
-
+//
+//  Reviewed by:
+//      - No one yet.
+//
 
 
 // Part One:
 
-<?php  
+<?php
     /* START php TAGS so the SERVER Can evaluate the code   "<?php" and the ending  pair is "?>" */
 
     // FIXME: Declare variables
     // Declare two variables: an integer named "age", and a string named "name" with corresponding values (your name and age)
 
-    $age="22"; 
+    $age="22";
     $name="Jhon";
 ?>
 
@@ -25,10 +28,10 @@
 
     echo "You are $name and you are $age years old!";
   ?>
-<?php  
+<?php
     // FiXME: Concatenation
     // Create a new string variable called "hello" which value is "Hello ". Add "name" at the end of "hello" (Concatenation) then print it
-    
+
     $hello="Hello ".$name; //  dot "." is used for concatenation
 ?>
 
@@ -95,7 +98,7 @@ for($i = 1; $i < 11; $i++)
 
 <?php
     // FIXME: Sum Up
-    // Create a string variable called "element" with the value of your choice. Then create a for-loop that checks if "shoppingList" contains 
+    // Create a string variable called "element" with the value of your choice. Then create a for-loop that checks if "shoppingList" contains
     // "element". If yes, print "You have to buy (value of element) !", and stop the loop (search how to stop a loop).
     // If not, print "Nope, you don't need (value of "element")".
 
@@ -111,7 +114,7 @@ for($i = 1; $i < 11; $i++)
         }
         else
         {
-            echo "Nope, you dont't need $item"; 
+            echo "Nope, you dont't need $item";
             break 1;  /* break 1  Exit the if statement code block */
         }
     }
@@ -131,8 +134,8 @@ for($i = 1; $i < 11; $i++)
     {
         //  SEE HereDOc  http://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.heredoc
         $string=<<<EOD
-               ^  
-             /  \ 
+               ^
+             /  \
             /\  /\
            /__\/__\
            TRIFORCE
@@ -182,7 +185,7 @@ for($i = 1; $i < 11; $i++)
 // Create a string variable that takes what the user enter in the console as value. Then print "You entered (value of string)"
 
 /* PHP is a server side language  and can take user input from HTML FORMS
- NOT SURE FOR:CONSOLE INPUT 
+ NOT SURE FOR:CONSOLE INPUT
  */
 ?>
 
@@ -205,7 +208,7 @@ for($i = 1; $i < 11; $i++)
 
     REF: http://php.net/manual/en/reserved.variables.post.php
     */
-    $INPUT = $_POST['anyvaluename_inHTMLFORM']; 
+    $INPUT = $_POST['anyvaluename_inHTMLFORM'];
     echo $INPUT;
 ?>
 
@@ -213,7 +216,7 @@ for($i = 1; $i < 11; $i++)
     // FIXME: While loop
     // Create a while loop that takes a number and divides it by 2 until it is less than 3
 
-    /* Reference  http://php.net/manual/en/language.operators.assignment.php 
+    /* Reference  http://php.net/manual/en/language.operators.assignment.php
           $a /= $b     $a = $a / $b    Division
     */
 
@@ -291,7 +294,7 @@ for($i = 1; $i < 11; $i++)
     case (12 <= $a):
       echo "value is greater or equal to 12";
       break;
-    default : echo "UNKNOWN";  
+    default : echo "UNKNOWN";
     }
 ?>
 
@@ -303,7 +306,7 @@ for($i = 1; $i < 11; $i++)
 
     //AND
     function cmpAND($a, $b)
-    { 
+    {
         $result = ($a && $b);
         return $result;
     }
@@ -358,5 +361,3 @@ for($i = 1; $i < 11; $i++)
     /* http://php.net/manual/en/function.strrev.php */
     echo strrev("Hello world!"); // outputs !dlrow olleH
 ?>
-
-

@@ -4,6 +4,11 @@
 //
 //  Created by P1kachu on 07/02/15.
 //  Copyright (c) 2015 P1kachu. All rights reserved.
+//
+//  Reviewed by:
+//      - Thommath
+//      - (null)
+//
 
 import java.util.Scanner; // For user input
 import java.util.Random;

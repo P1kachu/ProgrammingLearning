@@ -4,6 +4,8 @@
 //
 //  Created by P1kachu on 14/09/14.
 //
+//  Reviewed by:
+//      - No one yet.
 //
 
 import Foundation
@@ -69,7 +71,7 @@ for i in 1...10
 }
 
 // FIXME: Sum Up
-// Create a string variable called "element" with the value of your choice. Then create a for-loop/foreach-loop that checks if "shoppingList" 
+// Create a string variable called "element" with the value of your choice. Then create a for-loop/foreach-loop that checks if "shoppingList"
 // contains "element". If yes, print "You have to buy (value of element) !", and stop the loop (search how to stop a loop).
 // If not, print "Nope, you don't need (value of "element")".
 let element:String = "a Chevy Camaro"; //Declaring a constant
@@ -212,7 +214,7 @@ println()
 
 
 // FIXME: Multi-dimensionnal array
-// Create a two dimensionnal int array of 3 columns and 3 rows. Use 2 for-loops to add a random number 
+// Create a two dimensionnal int array of 3 columns and 3 rows. Use 2 for-loops to add a random number
 // between 1 and 9 in each of the 9 rooms.
 // You may use one of the two previously created function.
 // Then print them such that they appear like this (with [x1,x9] being the 9 random integers):

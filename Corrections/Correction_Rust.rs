@@ -4,9 +4,12 @@
 //
 //  Created by Tandrial on 03/10/15.
 //  Copyright (c) 2015 Tandrial. All rights reserved.
-
+//
+//  Reviewed by:
+//      - No one yet.
+//
 // It's not possible to compile this with  ´rustc Correction_Rust.rs´ since we depends on the rand crate
-// Instead use cargo ´cargo new CorrectionRust --bin´, add  rand as a dependency (in Cargo.toml) 
+// Instead use cargo ´cargo new CorrectionRust --bin´, add  rand as a dependency (in Cargo.toml)
 // and then run it ´cargo run´
 extern crate rand;
 
@@ -19,7 +22,7 @@ fn main() {
 
 
 	//FIXME: Declare variables
-	//Declare two variables: an integer named "age", and a string named "name" 
+	//Declare two variables: an integer named "age", and a string named "name"
 	//with corresponding values (your name and age)
 	let age: i32 = 20;
 	let name: &str = "Michael";
@@ -30,7 +33,7 @@ fn main() {
 	println!("You are {} and you are {} years old!", name, age);
 
 	//FiXME: Concatenation
-	//Create a new string variable called "hello" which value is "Hello ". 
+	//Create a new string variable called "hello" which value is "Hello ".
 	//Add "name" at the end of "hello" (Concatenation) then print it
 	let mut hello = "Hello ".to_string();
 	hello = hello + name;
@@ -62,26 +65,26 @@ fn main() {
 	}
 
 	//FIXME: If-statement
-	//Modify the first for-loop (with i from 1 to 10) such that it prints 
+	//Modify the first for-loop (with i from 1 to 10) such that it prints
 	// "(value of i) is even" when "i" is divisible by 2 (You may want to learn more about "modulo" (%)).
 	// Else, print "(value of i) is odd".
 	for i in 1..11 {
 		match i % 2 {
 			0 => println!("{} is even!", i),
 			_ => println!("{} is odd!" , i),
-		};	
+		};
 	}
 
 	//FIXME: Sum Up
-	//Create a string variable called "element" with the value of your choice. 
-	//Then create a for-loop that checks if "shoppingList" contains 
-	//"element". If yes, print "You have to buy (value of element) !", 
+	//Create a string variable called "element" with the value of your choice.
+	//Then create a for-loop that checks if "shoppingList" contains
+	//"element". If yes, print "You have to buy (value of element) !",
 	// and stop the loop (search how to stop a loop).
 	//If not, print "Nope, you don't need (value of "element")".
 	let item: &str = "Chocolate";
 	let mut found: bool = false;
 
-	for &elem in shopping_list.iter() {		
+	for &elem in shopping_list.iter() {
 		if elem == item {
 			found = true;
 			break;
@@ -110,13 +113,13 @@ fn main() {
 	//Create a function that takes two integers as parameters and returns the addition of these two.
 	//You can do the same with multiplication, subtraction and division.
 	println!("1 + 2 = {}", add(1, 2));
-	println!("2 * 3 = {}", mult(2, 3));	
+	println!("2 * 3 = {}", mult(2, 3));
 	println!("1 - 2 = {}", sub(1, 2));
 	println!("8 / 2 = {}", div(8, 2));
 
 	//FIXME: User entry
-	//Create a string variable that takes what the user enter in the console as value. 
-	//Then print "You entered (value of string)"	
+	//Create a string variable that takes what the user enter in the console as value.
+	//Then print "You entered (value of string)"
 	let mut input = String::new();
 	io::stdin().read_line(&mut input)
 				   	 .ok()
@@ -190,7 +193,7 @@ fn main() {
 	//FIXME - Reverse
 	//Create a function that reverse a string
 	let s = "abcd"; // Unicode characters in my string
-	let s_rev: String = s.chars().rev().collect();	
+	let s_rev: String = s.chars().rev().collect();
 	println!("{}", s_rev);
 
 	adv_questions();
@@ -203,7 +206,7 @@ fn tri_force() {
 }
 
 fn hello_string(s: &str) {
-	println!("Hello {}!", s);	
+	println!("Hello {}!", s);
 }
 
 fn add(a: i32, b: i32) -> i32 {
@@ -248,28 +251,28 @@ fn adv_questions() {
 	// Advance Question:
 	// These are question from actual interview with large companies.
 
-	// Microsoft Interview Question: 
-	// Write a Function to Reverse the word order of String 
-	// Sample: "This is a Cat" -> "Cat a is This" 
-	let s: &str = "This is a cat";	
+	// Microsoft Interview Question:
+	// Write a Function to Reverse the word order of String
+	// Sample: "This is a Cat" -> "Cat a is This"
+	let s: &str = "This is a cat";
 	let mut s_rev: String = String::new();
 	for word in s.split_whitespace().rev() {
-		s_rev = s_rev + &word + " ";	
-	}	
+		s_rev = s_rev + &word + " ";
+	}
 	println!("'{}'", s_rev.trim_right());
 
 	// Facebook Interview Question:
-	// Write a Function which proves if a String is a Palindrome 
+	// Write a Function which proves if a String is a Palindrome
 	// Note: Word which is read the same Backward as Forward
 	let s = "tacocat";
-	let s_rev: String = s.chars().rev().collect();	
+	let s_rev: String = s.chars().rev().collect();
 	if s == s_rev {
 		println!("{} is a palindrome!", s);
 	}
 
 	// Facebook Interview Question:
-	// Given a List of Arrays, write a Function which will  
-	// Return True if Two of the Number equal 12 
+	// Given a List of Arrays, write a Function which will
+	// Return True if Two of the Number equal 12
 	let mut list: LinkedList<Box<[i32]>> = LinkedList::new();
 	list.push_back(Box::new([3, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2]));
 	list.push_back(Box::new([3, 9, 29, 2]));
@@ -284,20 +287,20 @@ fn adv_questions() {
 		}
 	}
 
-	// Microsoft Interview Question: 
-	// With a given Array  (Multidimensional Array) find location 
-	// Zero & Replaces all Columns & Rows with Zero 
-	// Sample:  
-	// Input:{  1,  2,  3,  4 } 
-	//    	 {  5,  6,  7,  8 } 
-	//       {  9, 10,  0, 11 } 
-	//       { 12, 13, 14, 15 } 
+	// Microsoft Interview Question:
+	// With a given Array  (Multidimensional Array) find location
+	// Zero & Replaces all Columns & Rows with Zero
+	// Sample:
+	// Input:{  1,  2,  3,  4 }
+	//    	 {  5,  6,  7,  8 }
+	//       {  9, 10,  0, 11 }
+	//       { 12, 13, 14, 15 }
 
-	// Output: {  1,  2,  0,  4 } 
-	//         {  5,  6,  0,  8 } 
-	//         {  0,  0,  0,  0 } 
-	//         { 12, 13,  0, 15 } 
-	
+	// Output: {  1,  2,  0,  4 }
+	//         {  5,  6,  0,  8 }
+	//         {  0,  0,  0,  0 }
+	//         { 12, 13,  0, 15 }
+
 	let mut array = vec![vec![1,   2,  3,  4],
 			     vec![5,   6,  7,  8],
 			     vec![9,  10,  0, 11],
@@ -306,29 +309,29 @@ fn adv_questions() {
 
 	array = vec![vec![1,2,4],
 				 vec![1,0,4],
-				 vec![1,2,4]];  
+				 vec![1,2,4]];
 	find_replace_0(&mut array);
 
-	// HackerRank Data Structure & Algorithm Questions 
-	// You are given an array of integers of size N . You need to print  
-	// the sum of the elements of the array.  
+	// HackerRank Data Structure & Algorithm Questions
+	// You are given an array of integers of size N . You need to print
+	// the sum of the elements of the array.
 
 	let nums: [i32; 5] = [1, 2, 3, 4, 5];
 	let sum: i32 = nums.iter().fold(0, |acc, x| acc + x);
 	println!("sum = {}", sum);
 
-	// HackerRank Data Structure & Algorithm Questions: 
-	// Your teacher has given you the task to draw the structure of a staircase.  
-	// Being an expert programmer, you decided to make a program for the same.  
-	// You are given the height of the staircase. You need to print a  
-	// staircase as shown in the example.  
-	// Output:  
-	//       # 
-	//      ## 
-	//     ### 
-	//    #### 
-	//   ##### 
-	//  ###### 
+	// HackerRank Data Structure & Algorithm Questions:
+	// Your teacher has given you the task to draw the structure of a staircase.
+	// Being an expert programmer, you decided to make a program for the same.
+	// You are given the height of the staircase. You need to print a
+	// staircase as shown in the example.
+	// Output:
+	//       #
+	//      ##
+	//     ###
+	//    ####
+	//   #####
+	//  ######
 	print_stairs(6);
 
 	// FIXME: Classes
@@ -351,7 +354,7 @@ fn adds_up_to_12(arr: &[i32]) -> bool {
 
 fn find_replace_0(arr: &mut Vec<Vec<i32>>) {
 	for i in 0.. arr.len() {
-		println!("{:?}", arr[i]);   
+		println!("{:?}", arr[i]);
 	}
 	let mut x: usize = 0;
 	let mut y: usize = 0;
@@ -365,22 +368,22 @@ fn find_replace_0(arr: &mut Vec<Vec<i32>>) {
 	}
 	for i in 0..arr.len() {
 		arr[i][x] = 0;
-	}   
+	}
 	for i in 0..arr[y].len() {
 		arr[y][i] = 0;
-	}   
+	}
 	for i in 0.. arr.len() {
-		println!("{:?}", arr[i]);   
-	}   
+		println!("{:?}", arr[i]);
+	}
 }
 
-fn print_stairs(h: usize) {	
+fn print_stairs(h: usize) {
 	let mut white_spaces = String::from_utf8(vec![32; h]).unwrap();
 	let mut stairs = String::new();
 
 	for _ in 0..h {
-		stairs = stairs + "#";		
+		stairs = stairs + "#";
 		println!("{}{}", white_spaces ,stairs);
-		white_spaces = white_spaces[1..].to_string();		
-	}	
+		white_spaces = white_spaces[1..].to_string();
+	}
 }

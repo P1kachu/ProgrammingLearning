@@ -5,8 +5,11 @@ import java.util.{Random, Scanner}
 //  ScalaCorrection
 //
 //  Created by Remus32 on 20/09/15.
-//  Revised by rbobillo on 28/09/15
-//  Copyright (c) 2015 Remus32, rbobillo. All rights reserved.
+//  Reviewed by:
+//      - rbobillo
+//      - (null);
+//
+//  Copyright (c) 2015 Remus32. All rights reserved.
 
 object ScalaCorrection{
 

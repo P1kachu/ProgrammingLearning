@@ -5,8 +5,9 @@
 //  Created by P1kachu on 15/09/14.
 //  Copyright (c) 2014 P1kachu. All rights reserved.
 //
-//  Thanks to Nementon for his review and correction.
-//
+//  Reviewed by:
+//      - Nementon
+//      - (null)
 //
 
 using System;
@@ -32,7 +33,7 @@ namespace CSharpCorrection
             // FIXME: Print
             // Print the following sentence in the console "You are NAME and you are AGE years old !". Don't forget to add a newline at the end
             Console.WriteLine("You are {0} and you are {1} years old !", name, age);
-            //or 
+            //or
             Console.Write("You are {0} and you are {1} years old ! {2}", name, age, Environment.NewLine);
 
             // FiXME: Concatenation
@@ -70,7 +71,7 @@ namespace CSharpCorrection
 
             // FIXME: If-statement
             // Modify the first for-loop (with i from 1 to 10) such that it prints "(value of i) is even" when "i" is divisible
-            // by 2 (You may want to learn more about "modulo" (%)). Else, print "(value of i) is odd".  
+            // by 2 (You may want to learn more about "modulo" (%)). Else, print "(value of i) is odd".
             for (int i = 1; i <= 10; i++)
             {
                 if (i % 2 == 0)
@@ -84,9 +85,9 @@ namespace CSharpCorrection
             }
 
             // FIXME: Sum Up
-            // Create a string variable called "element" with the value of your choice. Then create a for-loop that checks if "shoppingList" contains 
+            // Create a string variable called "element" with the value of your choice. Then create a for-loop that checks if "shoppingList" contains
             // "element". If yes, print "You have to buy (value of element) !", and stop the loop (search how to stop a loop).
-            // If not, print "Nope, you don't need (value of "element")".   
+            // If not, print "Nope, you don't need (value of "element")".
             string element = "a life";
             for (int i = 0; i < nbOfElements; i++)
             {
@@ -203,12 +204,12 @@ namespace CSharpCorrection
         {
             Console.WriteLine(@"
    /\
-  /__\ 
- /\  /\ 
-/__\/__\  
+  /__\
+ /\  /\
+/__\/__\
 TRIFORCE"
 );
-           
+
         }
 
         static string Hello(string name)

@@ -5,6 +5,12 @@
 #
 #  Created by P1kachu on 15/07/15.
 #  Copyright (c) 2015 P1kachu. All rights reserved.
+#
+#  Reviewed by:
+#      - No one yet.
+
+
+
 #!/bin/sh
 
 
@@ -63,7 +69,7 @@ for (( i = 0; i < 10; i++ )); do
 done
 
 # FIXME: Sum Up
-# Create a string variable called "element" with the value of your choice. Then create a for-loop that checks if "shoppingList" contains 
+# Create a string variable called "element" with the value of your choice. Then create a for-loop that checks if "shoppingList" contains
 # "element". If yes, print "You have to buy (value of element) !", and stop the loop (search how to stop a loop).
 # If not, print "Nope, you don't need (value of "element")".
 element='NASA Shuttle'
@@ -186,7 +192,7 @@ GetRandom
 GetRandomBounded()
 {
     echo $(( $(( RANDOM % $(($2 - $1 + 1)) )) + $1))
-    # OR 
+    # OR
     # echo $(shuf -i 2000-65000 -n 1) # from http://stackoverflow.com/a/2556282/3803389
 }
 GetRandomBounded 10 15
