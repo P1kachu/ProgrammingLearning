@@ -84,7 +84,11 @@ Language |      | Language |      |
 Thanks to you !
 
 #Notes
-- The Swift correction was created at the time where XCode was in version 6b5. The language has evolved since and thus the correction may not be 100% accurate.
+- When editing an existing corrections, please take care not to
+**break** it. Verify that it still works the same way it did before.
+- The Swift correction was created at the time where XCode was in
+version 6b5. The language has evolved since and thus the correction
+may not be 100% accurate.
 
 ####TODO
 - OCaml correction is half finished only.
