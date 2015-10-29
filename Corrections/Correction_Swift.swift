@@ -5,8 +5,8 @@
 //  Created by P1kachu on 14/09/14.
 //
 //  Reviewed by:
-//      - Imbavirus (Compiles and outputs fine on swiftstub.com, not 100% tested but made some corrections) on 29/10/15
-//
+//      - Imbavirus
+//      - (null)
 
 // import Foundation
 
