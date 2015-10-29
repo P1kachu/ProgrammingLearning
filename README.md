@@ -80,6 +80,7 @@ Language |      | Language |      |
 - [rbobillo] who reviewed and corrected the Scala correction.
 - [Tandrial] who provided the Rust correction.
 - [Thommath] who corrected the Java correction.
+- [Imbavirus] who provided some corrections to Swift.
 
 Thanks to you !
 
@@ -135,3 +136,4 @@ after the correction's latest update).
 [rbobillo]: https://github.com/rbobillo
 [Tandrial]: https://github.com/Tandrial
 [Thommath]: https://github.com/Thommath
+[Imbavirus]: https://github.com/Imbavirus
