@@ -8,6 +8,7 @@
 //  Reviewed by:
 //      - Nementon
 //      - (null)
+//		- Adrian Hum (lgm-adrianhum)
 //
 
 using System;
@@ -41,7 +42,12 @@ namespace CSharpCorrection
             string hello = "Hello ";
             hello += name;
             Console.WriteLine(hello);
-
+            // Strings are immutable, so it is preferable to use the string builder class when concatenating.
+            var sb = new StringBuilder();
+            sb.Append("Hello");
+            sb.Append(name);
+            Console.WriteLine(sb.ToString());
+            
             // FIXME: Array
             // create a new string array called "shoppingList", with three elements of your choice. Create an int variable containing the number of
             // elements in "shoppingList" (using a function of the array/using the array)
