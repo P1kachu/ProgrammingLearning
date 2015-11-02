@@ -7,8 +7,8 @@
 //
 //  Reviewed by:
 //      - Nementon
+//      - Adrian Hum (lgm-adrianhum)
 //      - (null)
-//		- Adrian Hum (lgm-adrianhum)
 //
 
 using System;
@@ -47,7 +47,7 @@ namespace CSharpCorrection
             sb.Append("Hello");
             sb.Append(name);
             Console.WriteLine(sb.ToString());
-            
+
             // FIXME: Array
             // create a new string array called "shoppingList", with three elements of your choice. Create an int variable containing the number of
             // elements in "shoppingList" (using a function of the array/using the array)
@@ -75,7 +75,7 @@ namespace CSharpCorrection
                 Console.WriteLine(elt);
             }
 
-             
+
 
             // FIXME: If-statement
             // Modify the first for-loop (with i from 1 to 10) such that it prints "(value of i) is even" when "i" is divisible
@@ -91,7 +91,7 @@ namespace CSharpCorrection
                     Console.WriteLine("{0} is odd", i);
                 }
             }
-            
+
             // FIXME: If-statement
             // Modify the first for-loop (with i from 1 to 10) such that it prints "(value of i) is even" when "i" is divisible
             // by 2 (You may want to learn more about "modulo" (%)). Else, print "(value of i) is odd".
