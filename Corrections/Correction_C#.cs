@@ -75,6 +75,8 @@ namespace CSharpCorrection
                 Console.WriteLine(elt);
             }
 
+             
+
             // FIXME: If-statement
             // Modify the first for-loop (with i from 1 to 10) such that it prints "(value of i) is even" when "i" is divisible
             // by 2 (You may want to learn more about "modulo" (%)). Else, print "(value of i) is odd".
@@ -88,6 +90,14 @@ namespace CSharpCorrection
                 {
                     Console.WriteLine("{0} is odd", i);
                 }
+            }
+            
+            // FIXME: If-statement
+            // Modify the first for-loop (with i from 1 to 10) such that it prints "(value of i) is even" when "i" is divisible
+            // by 2 (You may want to learn more about "modulo" (%)). Else, print "(value of i) is odd".
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine("{0} is {1}", i, i % 2==0 ? "even" : "odd");
             }
 
             // FIXME: Sum Up
@@ -268,6 +278,21 @@ TRIFORCE"
             }
 
             return rand.Next(min, max + 1);
+        }
+
+        /// <summary>
+        /// Your teacher has given you the task to draw the structure of a staircase.
+        /// Being an expert programmer, you decided to make a program for the same.
+        /// You are given the height of the staircase.
+        /// </summary>
+        /// <param name="MaxValue">The Number of steps that you want...</param>
+         static void PrintStaircase(int MaxValue)
+        {
+            var l = new String('#', MaxValue); // Gives a string of '#' the length of the longest staircase.
+            for(int i=1; i<=MaxValue; i++)
+            {
+                Console.WriteLine(l.Substring(0, i).PadLeft(MaxValue)); //Right align the result using spaces.
+            }
         }
     }
 }
