@@ -128,7 +128,7 @@ after the correction's latest update).
 [Lolcode]: Corrections/Correction_Lolcode.lol "Lolcode Correction"
 [Scala]: Corrections/Correction_Scala.scala "Scala Correction"
 [Rust]: Corrections/Correction_Rust.rs "Rust Correction"
-[Rust]: Corrections/Correction_JavaScript.js "JS Correction"
+[JavaScript]: Corrections/Correction_JavaScript.js "JS Correction"
 
 [Lockf0rc]: https://github.com/Lockf0rc
 [Nementon]: https://github.com/Nementon
