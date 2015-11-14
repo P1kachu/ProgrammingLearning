@@ -62,19 +62,20 @@ Parenthesis      | [1_Pa]  | [2_Pa]  |
 
 Language |      | Language |      |
 ---------|------|----------|------|
-[C]        | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/c.png" "width="75" height="75"/> | [C#]       | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/cs.png" "width="75" height="75"/>
-[C++]      | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/cpp.png" "width="75" height="75"/> | [Java]     | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/java.png" "width="75" height="75"/>
-[Bash]     | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/bash.png" "width="75" height="75"/> | [Swift]    | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/swift.png" "width="75" height="75"/>
-[Fantom]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/fantom.png" "width="75" height="75"/> | [Golang]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/golang.png" "width="75" height="75"/>
-[Python]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/python.png" "width="75" height="75"/> | [Python3]  |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/python3.png" "width="75" height="75"/>
-[Lolcode]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/lolcode.png" "width="75" height="75"/> | [Ocaml (WIP)]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/ocaml.png" "width="75" height="75"/> |
-[PHP]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/php.png" "width="75" height="75"/> | [Scala]       |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/scala.png" "width="75" height="75"/>
-[Rust]  | <img src="https://www.rust-lang.org/logos/rust-logo-blk.svg" "width="75" height="75"/> | [JavaScript]  | <img src="https://raw.githubusercontent.com/faizaanceg/ProgrammingLearning/master/assets/icons/js.png" "width="75" height="75"/> |
+[C]        | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/c.png" width="75" height="75"/> | [C#]       | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/cs.png" width="75" height="75"/>
+[C++]      | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/cpp.png" width="75" height="75"/> | [Java]     | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/java.png" width="75" height="75"/>
+[Bash]     | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/bash.png" width="75" height="75"/> | [Swift]    | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/swift.png" width="75" height="75"/>
+[Fantom]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/fantom.png" width="75" height="75"/> | [Golang]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/golang.png" width="75" height="75"/>
+[Python]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/python.png" width="75" height="75"/> | [Python3]  |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/python3.png" width="75" height="75"/>
+[Lolcode]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/lolcode.png" width="75" height="75"/> | [Ocaml (WIP)]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/ocaml.png" width="75" height="75"/> |
+[PHP]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/php.png" width="75" height="75"/> | [Scala]       |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/scala.png" width="75" height="75"/>
+[Rust]  | <img src="https://www.rust-lang.org/logos/rust-logo-blk.svg" width="75" height="75"/> | [JavaScript]  | <img src="https://raw.githubusercontent.com/faizaanceg/ProgrammingLearning/master/assets/icons/js.png" width="75" height="75"/> |
+[ObjC] | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/objc.png" width="75" height="75" />
 
 #Contributors
 - [Lockf0rc] who took care of the PHP Correction.
 - [Nementon] who reviewed and corrected the C# Correction.
-- [ShaidK] who provided the advanced exercices sheets.
+- [ShaidK] who provided the advanced exercises sheets.
 - [remus32] who provided the Scala correction.
 - [klauspost] who reviewed the Go corrections.
 - [rbobillo] who reviewed and corrected the Scala correction.
@@ -82,13 +83,14 @@ Language |      | Language |      |
 - [Thommath] who corrected the Java correction.
 - [Imbavirus] who provided some corrections to Swift.
 - [faizaanceg] who did the Javascript correction.
+- [ZaneH] who did the Objective-C correction.
 
 Thanks to you !
 
 #Notes
 - When editing an existing correction, please take care not to
 **break** it. Verify that it still works the same way it did before.
-- The Swift correction was created at the time where XCode was in
+- The Swift correction was created at the time where Xcode was in
 version 6b5. The language has evolved since and thus the correction
 may not be 100% accurate.
 
@@ -96,7 +98,7 @@ may not be 100% accurate.
 - OCaml correction is half finished only.
 - Update Swift correction so that it matches the latest version of the
 Language (see [Notes](README.md#notes)).
-- C# and C++ are missing some exercices from part 2 (exercices added
+- C# and C++ are missing some exercises from part 2 (exercices added
 after the correction's latest update).
 
 
@@ -140,3 +142,4 @@ after the correction's latest update).
 [Thommath]: https://github.com/Thommath
 [Imbavirus]: https://github.com/Imbavirus
 [faizaanceg]: https://github.com/faizaanceg
+[ZaneH]: https://github.com/ZaneH
