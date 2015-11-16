@@ -121,6 +121,7 @@ after the correction's latest update).
 [PHP]: Corrections/Correction_PHP.php "PHP Correction"
 [Java]: Corrections/Correction_Java.java "Java Correction"
 [Bash]: Corrections/Correction_Bash.sh "Bash Correction"
+[ObjC]: Corrections/Correction_ObjectiveC.m "ObjectiveC Correction"
 [Swift]: Corrections/Correction_Swift.swift "Swift Correction"
 [Ocaml (WIP)]: Corrections/Correction_OCaml(UNFINISHED).ml "Ocaml Correction"
 [Fantom]: Corrections/Correction_Fantom.fan "Fantom Correction"
