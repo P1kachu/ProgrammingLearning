@@ -263,11 +263,8 @@ in
         for j := 0 to 2 do
         (
             mat[i][j] := i * 3 + j;
-            print_int(mat[i][j]);
-            print("\n")
         )
     );
-
     for i := 0 to 2 do
     (
         print("{ ");
