@@ -109,3 +109,11 @@ Each function takes two booleans as parameters and returns the result of the log
 
 FIXME - Reverse
 Create a function that reverse a string
+
+
+Part 3: Interview Questions (Please rate the questions as Fair, Unfair, No Possible Answers)
+
+
+The FizzBuzz Test:
+
+"Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”." 
