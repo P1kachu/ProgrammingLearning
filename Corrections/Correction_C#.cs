@@ -286,13 +286,49 @@ TRIFORCE"
         /// You are given the height of the staircase.
         /// </summary>
         /// <param name="MaxValue">The Number of steps that you want...</param>
-         static void PrintStaircase(int MaxValue)
+        static void PrintStaircase(int MaxValue)
         {
             var l = new String('#', MaxValue); // Gives a string of '#' the length of the longest staircase.
             for(int i=1; i<=MaxValue; i++)
             {
                 Console.WriteLine(l.Substring(0, i).PadLeft(MaxValue)); //Right align the result using spaces.
             }
+        }
+        
+        /// <summary>
+        /// Create a function that reverse a string
+        /// LGM: 26-November-2015
+        /// </summary>
+        /// <param name="text">string you want to reverse...</param>
+        static string Reverse(string text)
+        {
+            if (string.IsNullOrEmpty(text)) return null;
+            
+            var array = text.ToCharArray();
+            Array.Reverse(array);
+            return new string(array);
+        }
+        
+        /// <summary>
+        /// Create a function that reverse a string
+        /// There is a second approach that can be faster for certain string lengths which uses Xor. 
+        /// LGM: 26-November-2015
+        /// </summary>
+        /// <param name="text">string you want to reverse...</param>
+        static string ReverseXor(string text)
+        {
+            if (string.IsNullOrEmpty(text)) return null;
+            var charArray = text.ToCharArray();
+            var len = s.Length - 1;
+
+            for (int i = 0; i < len; i++, len--)
+            {
+                charArray[i] ^= charArray[len];
+                charArray[len] ^= charArray[i];
+                charArray[i] ^= charArray[len];
+            }
+
+            return new string(charArray);
         }
     }
 }
