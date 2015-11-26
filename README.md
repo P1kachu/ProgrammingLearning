@@ -62,19 +62,43 @@ Parenthesis      | [1_Pa]  | [2_Pa]  |
 
 Language |      | Language |      |
 ---------|------|----------|------|
-[C]        | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/c.png" width="75" height="75"/> | [C#]       | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/cs.png" width="75" height="75"/>
-[C++]      | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/cpp.png" width="75" height="75"/> | [Java]     | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/java.png" width="75" height="75"/>
-[Bash]     | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/bash.png" width="75" height="75"/> | [Swift]    | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/swift.png" width="75" height="75"/>
-[Fantom]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/fantom.png" width="75" height="75"/> | [Golang]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/golang.png" width="75" height="75"/>
-[Python]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/python.png" width="75" height="75"/> | [Python3]  |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/python3.png" width="75" height="75"/>
-[Lolcode]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/lolcode.png" width="75" height="75"/> | [Ocaml (WIP)]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/ocaml.png" width="75" height="75"/> |
-[PHP]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/php.png" width="75" height="75"/> | [Scala]       |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/scala.png" width="75" height="75"/>
-[Rust]  | <img src="https://www.rust-lang.org/logos/rust-logo-blk.svg" width="75" height="75"/> | [JavaScript]  | <img src="https://raw.githubusercontent.com/faizaanceg/ProgrammingLearning/master/assets/icons/js.png" width="75" height="75"/> |
+[C]        | <img
+src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/c.png"
+width="75" height="75"/>
+| [C#]       | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/cs.png" width="75" height="75"/>
+[C++]      | <img
+src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/cpp.png"
+width="75" height="75"/>
+| [Java]     | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/java.png" width="75" height="75"/>
+[Bash]     | <img
+src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/bash.png"
+width="75" height="75"/>
+| [Swift]    | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/swift.png" width="75" height="75"/>
+[Fantom]   | <img
+src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/fantom.png"
+width="75" height="75"/>
+| [Golang]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/golang.png" width="75" height="75"/>
+[Python]   | <img
+src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/python.png"
+width="75" height="75"/>
+| [Python3]  |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/python3.png" width="75" height="75"/>
+[Lolcode]  | <img
+src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/lolcode.png"
+width="75" height="75"/>
+| [Ocaml (WIP)]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/ocaml.png" width="75" height="75"/> |
+[PHP]  | <img
+src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/php.png"
+width="75" height="75"/>
+| [Scala]       |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/scala.png" width="75" height="75"/>
+[Rust]  | <img src="https://www.rust-lang.org/logos/rust-logo-blk.svg"
+width="75" height="75"/>
+| [JavaScript]  | <img src="https://raw.githubusercontent.com/faizaanceg/ProgrammingLearning/master/assets/icons/js.png" width="75" height="75"/> |
 [ObjC] | <img
 src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/objc.png"
-width="75" height="75" /> | [Tiger]  | <img
+width="75" height="75" /> |
+[Tiger]  | <img
 src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/tiger.png"
-width="75" height="75" />
+width="75" height="75" /> |
 
 #Contributors
 - [Lockf0rc] who took care of the PHP Correction.
