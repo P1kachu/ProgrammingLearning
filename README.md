@@ -68,9 +68,9 @@ Language |      | Language |      |
 [Fantom]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/fantom.png" width="75" height="75"/> | [Golang]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/golang.png" width="75" height="75"/>
 [Python]   | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/python.png" width="75" height="75"/> | [Python3]  |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/python3.png" width="75" height="75"/>
 [Lolcode]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/lolcode.png" width="75" height="75"/> | [Ocaml (WIP)]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/ocaml.png" width="75" height="75"/> |
-[PHP]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/php.png" width="75" height="75"/> | [Scala]       |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/scala.png" width="75" height="75"/> | 
-[Rust]  | <img src="https://www.rust-lang.org/logos/rust-logo-blk.svg" width="75" height="75"/> | [JavaScript]  | <img src="https://raw.githubusercontent.com/faizaanceg/ProgrammingLearning/master/assets/icons/js.png" width="75" height="75"/> | 
-[ObjC] | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/objc.png" width="75" height="75" /> | [Tiger]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/tiger.png" width="75" height="75" />
+[PHP]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/php.png" width="75" height="75"/> | [Scala]       |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/scala.png" width="75" height="75"/> |
+[Rust]  | <img src="https://www.rust-lang.org/logos/rust-logo-blk.svg" width="75" height="75"/> | [JavaScript]  | <img src="https://raw.githubusercontent.com/faizaanceg/ProgrammingLearning/master/assets/icons/js.png" width="75" height="75"/> |
+[ObjC] | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/objc.png" width="75" height="75" /> | [Tiger]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/tiger.png" width="75" height="75" /> | [Ruby (WIP)]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/ruby.png" width="75" height="75" />
 
 #Contributors
 - [Lockf0rc] who took care of the PHP Correction.
@@ -133,6 +133,7 @@ after the correction's latest update).
 [Rust]: Corrections/Correction_Rust.rs "Rust Correction"
 [JavaScript]: Corrections/Correction_JavaScript.js "JS Correction"
 [Tiger]: Corrections/Correction_Tiger.tig "Tiger Correction"
+[Ruby (WIP)]: Corrections/Correction_Ruby.ruby "Ruby Correction"
 
 [Lockf0rc]: https://github.com/Lockf0rc
 [Nementon]: https://github.com/Nementon
