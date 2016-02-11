@@ -114,21 +114,51 @@ HelloString("Reb");
 # FIXME: Functions - Multiple parameters
 # Create a function that takes two integers as parameters and returns the addition of these two.
 # You can do the same with multiplication, subtraction and division.
+def add(a, b)
+  a + b; # 'return' is implicit
+end
+
+def sub(a,b)
+  return a - b;
+end
+
+def div(a, b)
+  return a / b;
+end
+
+def mul(a, b)
+  return a * b;
+end
 
 # FIXME: User entry
 # Create a string variable that takes what the user enter in the console as value. Then print "You entered (value of string)"
+#userInput = gets
+#puts "You entered #{ userInput }"
 
 # FIXME: While loop
 # Create a while loop that takes a number and divides it by 2 until it is less than 3
+i = 25;
+while i > 3
+  puts i;
+  i /= 2;
+end
 
 # FIXME: do-While loop
 # Do the same with a do-while loop
+# No do while in ruby
 
 # FIXME: Random generator
 # Create a function that returns a random number
+def getRand()
+  # With 32-bit MAX_INT to be able to have cool numbers
+  return Random.rand() * 2147483647;
+end
 
 # FIXME: Random generator with bounds
 # Create another function that returns a random number between two bounds given as parameters.
+def getRand(a, b)
+  return Random.rand(a...b)
+end
 
 # FIXME: Multidimensional array
 # Create a two dimensional int array of 3 columns and 3 rows. Use 2 for-loops to add a random number
@@ -138,6 +168,15 @@ HelloString("Reb");
 # {x1,x2,x3,}
 # {x4,x5,x6,}
 # {x7,x8,x9,}
+m = Array.new(3) { Array.new(3) };
+for i in 0...3 do
+  print "{";
+  for j in 0...3 do
+    m[i][j] = getRand(0, 9);
+    print "#{ m[i][j] }, ";
+  end
+  puts "}";
+end
 
 # FIXME: Switch
 # Create a Switch that takes an integer "a" and return a sentence regarding the value of a
