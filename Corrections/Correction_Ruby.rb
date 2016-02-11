@@ -94,10 +94,22 @@ end
 # Create a function that returns nothing and which doesn't takes any parameter. It should just be named "TriForce"
 # and print the TriForce symbol (one triangle over two other ones, can be found on internet) with "TRIFORCE"
 # Don't forget to call the function !
+def TriForce
+    puts("   /\\  ");
+    puts("  /__\\ ");
+    puts(" /\\  /\\  ");
+    puts("/__\\/__\\ ");
+    puts(" TRIFORCE ");
+end
 
+TriForce();
 
 # FIXME: Functions - One parameter
 # Create a function that takes a string as parameter and returns "Hello (value of string) !"
+def HelloString(str)
+  puts "Hello #{ str } !"
+end
+HelloString("Reb");
 
 # FIXME: Functions - Multiple parameters
 # Create a function that takes two integers as parameters and returns the addition of these two.
@@ -126,7 +138,6 @@ end
 # {x1,x2,x3,}
 # {x4,x5,x6,}
 # {x7,x8,x9,}
-
 
 # FIXME: Switch
 # Create a Switch that takes an integer "a" and return a sentence regarding the value of a
