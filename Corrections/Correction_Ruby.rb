@@ -132,8 +132,8 @@ end
 
 # FIXME: User entry
 # Create a string variable that takes what the user enter in the console as value. Then print "You entered (value of string)"
-#userInput = gets
-#puts "You entered #{ userInput }"
+userInput = gets
+puts "You entered #{ userInput }"
 
 # FIXME: While loop
 # Create a while loop that takes a number and divides it by 2 until it is less than 3
