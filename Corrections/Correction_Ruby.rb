@@ -181,11 +181,53 @@ end
 # FIXME: Switch
 # Create a Switch that takes an integer "a" and return a sentence regarding the value of a
 # (Create 3 statements for 3 specific values and a default one)
+a = 2;
+
+case a
+when 0
+  puts "a is NULL"
+when 1
+  puts "a == 1"
+when 2
+  puts "a == 2"
+else
+  puts "a is smthg else"
+end
 
 # FIXME: logic Gates
 # Create 7 functions for each logic gates (And, Or, No, Nand, Nor, Xnor, Xor).
 # Each function takes two booleans as parameters and returns the result of the logic gate.
 # (or You can do it with a switch and only one function)
+def And(a, b)
+  return a && b
+end
+
+def Or(a, b)
+  return a || b
+end
+
+def No(a)
+  return !a
+end
+
+def Nand(a, b)
+  return !(a && b)
+end
+
+def Nor(a, b)
+  return !(a || b)
+end
+
+def Xnor(a, b)
+  return !(a ^ b)
+end
+
+def Xor(a, b)
+  return (a ^ b)
+end
 
 # FIXME - Reverse
 # Create a function that reverse a string
+def Reverse(str)
+  return str.reverse! # Okay, completely useless
+end
