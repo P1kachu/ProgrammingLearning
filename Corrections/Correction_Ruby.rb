@@ -32,7 +32,7 @@ puts hello;
 # FIXME: Array
 # create a new string array called "shoppingList", with three elements of your choice. Create an int variable containing the number of
 # elements in "shoppingList" (using a function of the array/using the array)
-shoppingList = Array["A kitty", "a phone case with a kitty on it", "more shirts with kittens on it"]; # I like cats.
+shoppingList = Array["a kitty", "a phone case with a kitty on it", "more shirts with kittens on it"]; # I like cats.
 nb_of_elts =  shoppingList.length;
 
 # FIXME: For-loop - Integer
@@ -68,7 +68,21 @@ end
 # Create a string variable called "element" with the value of your choice. Then create a for-loop that checks if "shoppingList" contains
 # "element". If yes, print "You have to buy (value of element) !", and stop the loop (search how to stop a loop).
 # If not, print "Nope, you don't need (value of "element")".
+element = "a kitty";
+bool = false;
 
+shoppingList.each { |elt|
+  if element == elt
+    bool = true;
+    break;
+  end
+}
+
+if bool
+  puts "You have to buy #{ element } !";
+else
+  puts "Nope, you don't need #{ element }.";
+end
 
 
 
