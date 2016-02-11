@@ -2,7 +2,7 @@ ProgrammingLearning
 ===================
 
 #What is it ?
-"I like it. Simple. Easy to remember."
+"I like it. Simple. Easy to remember." - Jack Sparrow
 
 When I want to learn a new language, I tend to rewrite the same usual basic stuff everytime, to get used to the syntax.  ProgrammingLearning is an attempt to be a standalone exercise sheet that would provide the required knowledge in any programming language to get a good start.
 
@@ -71,7 +71,7 @@ Language |      | Language |      |
 [PHP]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/php.png" width="75" height="75"/>         | [Scala]       |  <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/scala.png" width="75" height="75"/> |
 [Rust]  | <img src="https://www.rust-lang.org/logos/rust-logo-blk.svg" width="75" height="75"/>                                                | [JavaScript]  | <img src="https://raw.githubusercontent.com/faizaanceg/ProgrammingLearning/master/assets/icons/js.png" width="75" height="75"/> |
 [ObjC] | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/objc.png" width="75" height="75" />       | [Tiger]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/tiger.png" width="75" height="75" /> |
-[Ruby (WIP)] | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/ruby.png" width="75" height="75" /> |
+[Ruby] | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/ruby.png" width="75" height="75" /> |
 
 #Contributors
 - [Lockf0rc] who took care of the PHP Correction.
@@ -134,7 +134,7 @@ after the correction's latest update).
 [Rust]: Corrections/Correction_Rust.rs "Rust Correction"
 [JavaScript]: Corrections/Correction_JavaScript.js "JS Correction"
 [Tiger]: Corrections/Correction_Tiger.tig "Tiger Correction"
-[Ruby (WIP)]: Corrections/Correction_Ruby.rb "Ruby Correction"
+[Ruby]: Corrections/Correction_Ruby.rb "Ruby Correction"
 
 [Lockf0rc]: https://github.com/Lockf0rc
 [Nementon]: https://github.com/Nementon
