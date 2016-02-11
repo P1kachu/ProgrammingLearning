@@ -134,7 +134,7 @@ after the correction's latest update).
 [Rust]: Corrections/Correction_Rust.rs "Rust Correction"
 [JavaScript]: Corrections/Correction_JavaScript.js "JS Correction"
 [Tiger]: Corrections/Correction_Tiger.tig "Tiger Correction"
-[Ruby (WIP)]: Corrections/Correction_Ruby.ruby "Ruby Correction"
+[Ruby (WIP)]: Corrections/Correction_Ruby.rb "Ruby Correction"
 
 [Lockf0rc]: https://github.com/Lockf0rc
 [Nementon]: https://github.com/Nementon
