@@ -1,6 +1,8 @@
 ProgrammingLearning
 ===================
 
+[![Join the chat at https://gitter.im/P1kachu/ProgrammingLearning](https://badges.gitter.im/P1kachu/ProgrammingLearning.svg)](https://gitter.im/P1kachu/ProgrammingLearning?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 #What is it ?
 "I like it. Simple. Easy to remember." - Jack Sparrow
 
