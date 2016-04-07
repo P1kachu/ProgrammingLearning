@@ -236,8 +236,5 @@ def Nor(nb1, nb2):
 #   FIXME - Reverse
 #   Create a function that reverse a string (basic method)
 def reverseString(stringy):
-    stringy2 = ""
-    for x in range(len(stringy)-1,-1, -1):
-        stringy2 += stringy[x]
-    return stringy2
+    return stringy[::-1]
 print reverseString("Hello!")
