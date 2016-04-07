@@ -28,6 +28,9 @@ int Division(int a, int b);
 int rdm();
 int rdmBounds(int min, int max);
 
+string Reverse(string str);
+bool logicGates(bool x, bool y);
+
 int main()
 {
 
@@ -179,6 +182,36 @@ int main()
             cout << multiArray[i][j] << ", ";
         cout << "}\n";
     }
+    
+    //FIXME: Switch
+    //Create a Switch that takes an integer "a" and return a sentence regarding the value of a
+    //(Create 3 statements for 3 specific values and a default one)
+    int a;
+    cin >> a;
+    switch(a){
+    case 1:
+        cout << "Num: 1\n";
+        break;
+    case 2:
+        cout << "Num: 2\n";
+        break;
+    case 3:
+        cout << "Num: 3\n";
+        break;
+    default:
+        cout << "Number: " << a << endl;
+        break;
+    }
+
+    //FIXME: logic Gates
+    //Create 7 functions for each logic gates (And, Or, No, Nand, Nor).
+    //Each function takes two booleans as parameters and returns the result of the logic gate.
+    //(or You can do it with a switch and only one function)
+    cout << "Logic gate: " << logicGates(true, false) << endl;
+
+    //FIXME - Reverse
+    //Create a function that reverse a string
+    cout << Reverse("Hello Friend.") << endl;
 
     return 0;
 
@@ -230,4 +263,56 @@ int rdm()
 int rdmBounds(int min, int max)
 {
     return min + (rand() % (max - min));
+}
+
+string Reverse(string str){
+    string temp="";
+    for(int i = str.length()-1; i >= 0; i--)
+        temp += str[i];
+    return temp;
+}
+
+bool logicGates(bool x, bool y){
+    //And, Or, No, Nand, Nor,
+    int i;
+    cout << "Choose num: \n"
+         << "0 - AND\n" << "1 - OR\n" << "2 - NO\n" << "3 - NAND\n"
+         << "4 - NOR\n";
+    cin >> i;
+
+    switch(i){
+    case 0://and
+        if(x && y)
+            return true;
+        else
+            return false;
+        break;
+    case 1://or
+        if (x || y)
+            return true;
+        else
+            return false;
+        break;
+    case 2://no
+        if (x)
+            return false;
+        else
+            return true;
+        break;
+    case 3://nand
+        if(x && y)
+            return false;
+        else
+            return true;
+        break;
+    case 4://nor
+        if (x || y)
+            return false;
+        else
+            return true;
+        break;
+    default:
+        cout << "Wrong Value\n";
+        break;
+    }
 }
