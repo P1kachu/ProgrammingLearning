@@ -7,12 +7,14 @@
 //
 //
 //  Reviewed by:
-//      - No one yet.
+//      - Lantare
+//      - Nobody else.
 //
 //  Function prototypes will not be added in a different header file to make it easier,
 //  but you should use headers in practice.
 
 #include <iostream>
+#include <cstdlib>
 #define NUMBEROFELEMENTS(x)  (int)(sizeof (x) / sizeof (x[0])) //used to check how many elements are in an array for example
 
 using namespace std;
@@ -58,7 +60,7 @@ int main()
     // create a new string array called "shoppingList", with three elements of your choice. Create an int variable containing the number of
     // elements in "shoppingList" (using a function of the array/using the array)
     string shoppingList[3] = {"milk", "a Chevy Camaro", "a life"};
-    int nbOfElemets = numberOfElements(shoppingList);
+    int nbOfElements = NUMBEROFELEMENTS(shoppingList);
 
     // FIXME: For-loop - Integer
     // Create a simple for-loop for an integer "i" going from 1 to 10 that print the value of "i"
@@ -67,7 +69,7 @@ int main()
 
     // FIXME: For-loop - shoppingList
     // Create a for loop that iterate through "shoppingList" and prints each element.
-    for (int j = 0; j < nbOfElemets; j++)
+    for (int j = 0; j < nbOfElements; j++)
         cout << shoppingList[j] << endl;
 
     // FIXME: Foreach-loop
@@ -89,7 +91,7 @@ int main()
     // "element". If yes, print "You have to buy (value of element) !", and stop the loop (search how to stop a loop).
     // If not, print "Nope, you don't need (value of "element")".
     string element = "a life";
-    for (int i = 0; i < nbOfElemets; i++)
+    for (int i = 0; i < nbOfElements; i++)
     {
         if (element == shoppingList[i])
         {
@@ -170,19 +172,19 @@ int main()
     // {x7,x8,x9,}
     int multiArray[3][3];
 
-    for (int i = 0; i < numberOfElements(multiArray); i++)
-        for (int j = 0; j < numberOfElements(multiArray[i]); j++)
+    for (int i = 0; i < NUMBEROFELEMENTS(multiArray); i++)
+        for (int j = 0; j < NUMBEROFELEMENTS(multiArray[i]); j++)
             multiArray[i][j] = rdmBounds(0, 10);
 
 
-    for (int i = 0; i < numberOfElements(multiArray); i++)
+    for (int i = 0; i < NUMBEROFELEMENTS(multiArray); i++)
     {
         cout << "{";
-        for (int j = 0; j < numberOfElements(multiArray[i]); j++)
+        for (int j = 0; j < NUMBEROFELEMENTS(multiArray[i]); j++)
             cout << multiArray[i][j] << ", ";
         cout << "}\n";
     }
-    
+
     //FIXME: Switch
     //Create a Switch that takes an integer "a" and return a sentence regarding the value of a
     //(Create 3 statements for 3 specific values and a default one)
