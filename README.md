@@ -35,7 +35,7 @@ Exercises sheets | Level 1 | Level 2 |
 -----------------|---------|---------|
 Plaintext        | [1_Pl]  | [2_Pl]  |
 Double dash      | [1_Dd]  | [2_Dd]  |
-Pourcent         | [1_Pc]  | [2_Pc]  |
+Percent          | [1_Pc]  | [2_Pc]  |
 Hashtag          | [1_Ht]  | [2_Ht]  |
 Comma            | [1_Co]  | [2_Co]  |
 Double slash     | [1_Ds]  | [2_Ds]  |
