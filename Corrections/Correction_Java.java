@@ -7,7 +7,7 @@
 //
 //  Reviewed by:
 //      - Thommath
-//		- PraveenKishore
+//	- PraveenKishore
 //      - (null)
 //
 
@@ -191,75 +191,74 @@ class JavaCorrection
         // FIXME - Reverse
         // Create a function that reverse a string
         System.out.println(reverseString("Hello!"));
-		
-		
-		// Part: ADVANCED
-		// Following code is for Advanced Exercise
-		// Microsoft Interview Question
-		System.out.println(reverseWordOrder("This is a Cat"));
-		System.out.println("");
-		
-		// Facebook Interview Question 1
-		if(isPalindrome("Malayalam")) {
-			System.out.println("Palindrome");
-		} else {
-			System.out.println("Not a palindrome");
-		}
-		System.out.println("");
-		
-		// Facebook Interview Question 2
-		if(facebook2(new int[] { 1, 12, 11, 3, 4})) {	// Returns true if 2 or more numbers is 12
-			System.out.println("Two or more numbers is 12");
-		} else {
-			System.out.println("Two or more numbers is not 12");
-		}
-		System.out.println("");
-		
-		// Microsoft Interview Question
-		int a[][] = new int[][]{{  1,  2,  3,  4 }, 
-								{  5,  6,  7,  8 }, 
-								{  9, 10,  0, 11 }, 
-								{ 12, 13, 14, 15 }};
-		replaceWith0(a);
-		System.out.println("");
-		
-		// HackerRank Data Structure & Algorithm Questions 
-		// You are given an array of integers of size N . You need to print  
-		// the sum of the elements of the array.  
-		int sum = 0;
-		int num[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-		for(int i = 0; i < num.length; i++) {
-			sum += num[i];
-		}
-		System.out.println("Sum: " + sum);
-		System.out.println("");
-		
-		// HackerRank Data Structure & Algorithm Questions: 
-		// Your teacher has given you the task to draw the structure of a staircase.  
-		// Being an expert programmer, you decided to make a program for the same.  
-		// You are given the height of the staircase. You need to print a  
-		// staircase as shown in the example.  
-		// Output:  
-		//      # 
-		//     ## 
-		//    ### 
-		//   #### 
-		//  ##### 
-		// ###### 
-		int height = 6;
-		int s = height-1, h = 1;	// s: For storing number of space to be printed next, h for storing number of '#' to be printed next
-		for(int i = 0; i < height; i++) {
-			for(int j = 0; j < s; j++) {
-				System.out.print(" ");
-			}
-			for(int k = 0; k < h; k++) {
-				System.out.print("#");
-			}
-			s--;
-			h++;
-			System.out.println("");
-		}
-		
+	
+	
+	// Part: ADVANCED
+	// Following code is for Advanced Exercise
+	// Microsoft Interview Question
+	System.out.println(reverseWordOrder("This is a Cat"));
+	System.out.println("");
+	
+	// Facebook Interview Question 1
+	if(isPalindrome("Malayalam")) {
+		System.out.println("Palindrome");
+	} else {
+		System.out.println("Not a palindrome");
+	}
+	System.out.println("");
+	
+	// Facebook Interview Question 2
+	if(facebook2(new int[] { 1, 12, 11, 3, 4})) {	// Returns true if 2 or more numbers is 12
+		System.out.println("Two or more numbers is 12");
+	} else {
+		System.out.println("Two or more numbers is not 12");
+	}
+	System.out.println("");
+	
+	// Microsoft Interview Question
+	int a[][] = new int[][]{{  1,  2,  3,  4 }, 
+				{  5,  6,  7,  8 }, 
+				{  9, 10,  0, 11 }, 
+				{ 12, 13, 14, 15 }};
+	replaceWith0(a);
+	System.out.println("");
+	
+	// HackerRank Data Structure & Algorithm Questions 
+	// You are given an array of integers of size N . You need to print  
+	// the sum of the elements of the array.  
+	int sum = 0;
+	int num[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+	for(int i = 0; i < num.length; i++) {
+	    sum += num[i];
+	}
+	System.out.println("Sum: " + sum);
+	System.out.println("");
+	
+	// HackerRank Data Structure & Algorithm Questions: 
+	// Your teacher has given you the task to draw the structure of a staircase.  
+	// Being an expert programmer, you decided to make a program for the same.  
+	// You are given the height of the staircase. You need to print a  
+	// staircase as shown in the example.  
+	// Output:  
+	//      # 
+	//     ## 
+	//    ### 
+	//   #### 
+	//  ##### 
+	// ###### 
+	int height = 6;
+	int s = height-1, h = 1;	// s: For storing number of space to be printed next, h for storing number of '#' to be printed next
+	for(int i = 0; i < height; i++) {
+	    for(int j = 0; j < s; j++) {
+	        System.out.print(" ");
+	    }
+	    for(int k = 0; k < h; k++) {
+	        System.out.print("#");
+	    }
+	    s--;
+	    h++;
+	    System.out.println("");
+	}
     }
 
         //Functions Declarations
