@@ -30,6 +30,13 @@ class JavaCorrectionAdvanced
 		} else {
 			System.out.println("Two or more numbers is not 12");
 		}
+		
+		// Microsoft Interview Question
+		int a[][] = new int[][]{{  1,  2,  3,  4 }, 
+								{  5,  6,  7,  8 }, 
+								{  9, 10,  0, 11 }, 
+								{ 12, 13, 14, 15 }};
+		replaceWith0(a);
 	}
 	
 	static String reverseWordOrder(String input) {
@@ -73,5 +80,57 @@ class JavaCorrectionAdvanced
 			}
 		}
 		return false;
+	}
+	
+	static int[][] replaceWith0(int a[][]) {
+		/** Microsoft Interview Question: 
+		* With a given Array  (Multidimensional Array) find location 
+		* Zero & Replaces all Columns & Rows with Zero 
+		* Sample:  
+		* Input:{  1,  2,  3,  4 } 
+		*		{  5,  6,  7,  8 } 
+		*		{  9, 10,  0, 11 } 
+		*		{ 12, 13, 14, 15 } 
+		*
+		* Output: {  1,  2,  0,  4 } 
+		*		{  5,  6,  0,  8 } 
+		*		{  0,  0,  0,  0 } 
+		*		{ 12, 13,  0, 15 } 
+		**/
+		
+		int m = -1, n = -1;
+		// Find the row and column index of 0
+		for(int i = 0; i < a.length; i++) {
+			for(int j = 0; j < a[0].length; j++) {
+				if(a[i][j] == 0) {
+					m = i;
+					n = j;
+					break;
+				}
+			}
+		}
+		
+		// Replace rows and and columns of that index with 0
+		if(m != -1 && n != -1) {
+			for(int i = 0; i < a.length; i++) {
+				for(int j = 0; j < a[0].length; j++) {
+					if(i == m) {
+						a[i][j] = 0;
+					}
+					if(j == n) {
+						a[i][j] = 0;
+					}
+				}
+			}
+		}
+		
+		// Print the matrix
+		for(int i = 0; i < a.length; i++) {
+			for(int j = 0; j < a[0].length; j++) {
+					System.out.print(a[i][j] + "\t");
+			}
+			System.out.println("");
+		}
+		return a;
 	}
 }
