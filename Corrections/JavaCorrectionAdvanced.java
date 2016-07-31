@@ -78,6 +78,10 @@ class JavaCorrectionAdvanced
 			h++;
 			System.out.println("");
 		}
+		
+		// FIXME: Classes
+		// Build a simnple Console Notebook application which can record Notes,
+		// take Tags, modify list (sort by alphabetical...) and other sort of features
 	}
 	
 	static String reverseWordOrder(String input) {
