@@ -36,7 +36,7 @@ for i in 1...10
     print(i)
 }
 
-// Create a for loop that iterate through "shoppingList" and prints each element with "You have to buy (elemt)".
+// Create a for loop that iterate through "shoppingList" and prints each element with "You have to buy (elemet)".
 for j in 0..<nbOfElemts
 {
     print("You have to buy \(shoppingList[j])")
@@ -157,7 +157,7 @@ print(Division(10, b: 2))
     return NSString(data: inputData, encoding:NSUTF8StringEncoding)
 }
 var userInput:String = input()
-print("Uou entered \(userInput)")
+print("You entered \(userInput)")
 */
 
 // Create a while loop that takes a number and divides it by 2 until it is less than 3
