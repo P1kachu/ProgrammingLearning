@@ -1,23 +1,20 @@
 ProgrammingLearning
 ===================
 
-[![Join the chat at https://gitter.im/P1kachu/ProgrammingLearning](https://badges.gitter.im/P1kachu/ProgrammingLearning.svg)](https://gitter.im/P1kachu/ProgrammingLearning?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Codewake](https://www.codewake.com/badges/ask_question.svg)](https://www.codewake.com/p/programminglearning)
-
-#What is it ?
+# What is it ?
 "I like it. Simple. Easy to remember." - Jack Sparrow
 
 When I want to learn a new language, I tend to rewrite the same usual basic stuff everytime, to get used to the syntax.  ProgrammingLearning is an attempt to be a standalone exercise sheet that would provide the required knowledge in any programming language to get a good start.
 
 
-####You want to learn a new language ?
+#### You want to learn a new language ?
 Then take the exercise sheet, and code. Look for answers on StackOverflow, ask questions, and if you really are stuck, check if the correction is available in your language.
 
-####You know a programming language that has not been corrected yet ?
+#### You know a programming language that has not been corrected yet ?
 Then feel free to do a merge request and share your knowledge with everyone. Share it with your fellows too, more reviewers and corrections equals more programmers !
 
 
-####How does it work ?
+#### How does it work ?
 The exercises are taken from practical session from my first year.
 Document will be updated with new exercises, and corrections are available for some languages.
 Since I am far from knowing every programming language, some exercise may not be as easy as they could be.
@@ -61,7 +58,7 @@ Parenthesis      | [1_Pa]  | [2_Pa]  |
 
 
 
-#Languages currently available
+# Languages currently available
 
 Language |      | Language |      |
 ---------|------|----------|------|
@@ -76,7 +73,7 @@ Language |      | Language |      |
 [ObjC] | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/objc.png" width="75" height="75" />       | [Tiger]  | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/tiger.png" width="75" height="75" /> |
 [Ruby] | <img src="https://raw.githubusercontent.com/P1kachu/ProgrammingLearning/master/assets/icons/ruby.png" width="75" height="75" /> |
 
-#Contributors
+# Contributors
 - [Lockf0rc] who took care of the PHP Correction.
 - [Nementon] who reviewed and corrected the C# Correction.
 - [ShaidK] who provided the advanced exercises sheets.
@@ -91,14 +88,14 @@ Language |      | Language |      |
 
 Thanks to you !
 
-#Notes
+# Notes
 - When editing an existing correction, please take care not to
 **break** it. Verify that it still works the same way it did before.
 - The Swift correction was created at the time where Xcode was in
 version 6b5. The language has evolved since and thus the correction
 may not be 100% accurate.
 
-####TODO
+#### TODO
 - OCaml correction is half finished only.
 - Update Swift correction so that it matches the latest version of the
 Language (see [Notes](README.md#notes)).
