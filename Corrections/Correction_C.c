@@ -56,7 +56,7 @@ int main()
     // FIXME: Array
     // create a new string array called "shoppingList", with three elements of your choice. Create an int variable containing the number of
     // elements in "shoppingList" (using a function of the array/using the array)
-    char *shoppingList[3] = {"milk", "a Chevy Camaro", "a life"};
+    char *shoppingList[3] = {"milk", "a Chevy Camaro", "a life", NULL};
     const int nbOfElements = numberOfElements(shoppingList);
 
     // FIXME: For-loop - Integer
@@ -67,8 +67,14 @@ int main()
 
     // FIXME: For-loop - shoppingList
     // Create a for loop that iterate through "shoppingList" and prints each element with "You have to buy (elemt)".
-    for (int j = 0; j <nbOfElements; j++)
-        printf("You have to buy %s\n", shoppingList[j]);
+    {
+	    for (char **p=shoppingList; p && *p; p++)
+	    {
+		    int cur_index=p-shoppingList;
+		    char *cur_element=*p;
+		    printf("You have to buy %s\n", cur_element);
+	    }
+    }
 
 
     // FIXME: Foreach-loop

@@ -43,8 +43,9 @@ end
 
 # FIXME: For-loop - shoppingList
 # Create a for loop that iterate through "shoppingList" and prints each element.
-for i in 0..nb_of_elts - 1
-  puts shoppingList[i];
+shoppingList.each do
+  |element|
+  puts element
 end
 
 # FIXME: Foreach-loop
